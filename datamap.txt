@@ -1,0 +1,7803 @@
+[record]: Record number
+Open numeric response
+
+[uuid]: Participant identifier
+Open text response
+
+[date]: Completion time and date
+Open text response
+
+[markers]: Acquired markers
+Open text response
+
+[status]: Participant status
+Values: 1-4
+ 1=Terminated
+ 2=Overquota
+ 3=Qualified
+ 4=Partial
+
+[pipe_privacy]: Pipe privacy
+Values: 1-3
+ 1=placeholder
+ 2=https://kantaraustralia.com/wp-content/uploads/2020/06/Kantar-Australia_Privacy-Policy_v20200601.pdf
+ 3=https://www.kantar.com/uki/surveys
+
+[S1]: Thank you for agreeing to take part in this study. We are interested in how people use social media, particularly how they engage with various types of posts. The study will take approximately 15 minutes to complete. All your responses are kept in the strictest confidence and your identity will not be revealed to any third party. Click here to see our privacy policy. Please take the time you need to complete this study at your own speed. We'll ask you a series of short questions, then you will interact with a simulated social media platform. Finally, we'll ask you some questions about what you think about social media. Please note that this study contains some examples of posts which have been flagged as misinformation by independent fact-checkers. As part of this survey, Kantar Public, the sponsor of this survey, would like you to view a webpage hosted by its trusted partner Forsta. While viewing the webpage, Forsta will record interaction information: clicks and timestamps. This information will be shared with Kantar Public for analytical purposes. If you have read all the above, and are happy to participate, please choose 'Yes, I want to take part.'
+Values: 1-2
+ 1=Yes, I want to take part
+ 2=No, I do not want to take part
+
+[Video_Check]: Please watch the video and let us know what you see in it.
+Values: 1-12
+ 1=A rose
+ 2=A tulip
+ 3=A sunflower
+ 4=A squirrel
+ 5=A penguin
+ 6=A bear
+ 7=A piano
+ 8=A trumpet
+ 9=A drum
+ 10=A mailman
+ 11=A police officer
+ 12=A firefighter
+
+[Audio_Check]: Please listen to the audio and let us know what you hear.
+Values: 1-12
+ 1=A siren
+ 2=Traffic
+ 3=A train
+ 4=A drum roll
+ 5=A guitar solo
+ 6=Classical music
+ 7=A cow
+ 8=A dog
+ 9=A rooster
+ 10=An argument
+ 11=Singing
+ 12=Applause
+
+S2: Which of the following social media platforms have you used in the past 12 months?
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [S2r1] Facebook
+ [S2r2] Twitter
+ [S2r3] Instagram
+ [S2r4] Snapchat
+ [S2r5] TikTok
+ [S2r6] Other social media platform
+ [S2r7] I haven't used any social media platforms in the past 12 months
+
+[D1a]: What age were you on your last birthday?
+Values: 0-99
+
+noanswer: No Answer
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [noanswerD1a_n1] What age were you on your last birthday?: Prefer not to say
+ [noanswerC1a_n1] A bat and a ball cost $1.10 in total.The bat costs $1.00 more than the ball.How much does the ball cost?: Don't know
+ [noanswerC1b_n1] If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?: Don't know
+ [noanswerC1c_n1] In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?: Don't know
+ [noanswerC1d_n1] If you're running a race and you pass the person in second place, what place are you in? For first place, write in the number '1', for second place, write in the number '2' and so on...: Don't know
+ [noanswerC1e_n1] A farmer had 15 sheep and all but 8 died.How many are left?: Don't know
+ [noanswerC1f_n1] Emily's father has three daughters. The first two are named April and May. What is the third daughter's name?: Don't know
+ [noanswerC1g_n1] How many cubic feet of dirt are there in a hole that is 3' deep x 3' wide x 3' long?: Don't know
+
+[D1b]: To ensure we interview a cross section of the public, could you please tell us which of the following groups your age is in?
+Values: 1-7
+ 1=Less than 18
+ 2=18-24
+ 3=24-34
+ 4=35-44
+ 5=45-54
+ 6=55-64
+ 7=65+
+
+[D2]: What is your gender?
+Values: 1-4
+ 1=Male
+ 2=Female
+ 3=Non-binary / gender fluid
+ 4=My gender identity isn't listed. I identify as...
+
+[D3]: Which Australian state or territory do you live in?
+Values: 1-8
+ 1=New South Wales
+ 2=Victoria
+ 3=Queensland
+ 4=South Australia
+ 5=Western Australia
+ 6=Tasmania
+ 7=Northern Territory
+ 8=Australian Capital Territory
+
+[D4]: Do you speak a language other than English at home?
+Values: 1-4
+ 1=Yes
+ 2=No
+ 3=No, but my parents do
+ 4=Prefer not to say
+
+[D5]: Are you of Aboriginal or Torres Strait Islander origin?
+Values: 1-5
+ 1=Yes, Aboriginal
+ 2=Yes, Torres Strait Islander
+ 3=Yes, both Aboriginal and Torres Strait Islander
+ 4=No
+ 5=Prefer not to say
+
+[ARM]: Hidden: holds which arm the respondent belongs to.Will be displayed while testing.
+Values: 1-3
+ 1=Arm 1
+ 2=Arm 2
+ 3=Arm 3
+
+ARM3_1: Please select the three questions across the five categories shown here that you think are most important to ask yourself when deciding if a social media post is trustworthy. There are no right answers, we are interested in what you think is most important. You can select questions from different categories or the same category.
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [ARM3_1r1] Can I see who or where this has come from?
+ [ARM3_1r2] Do I recognise the person or organisation posting? Can I trust them?
+ [ARM3_1r3] Does the person posting have expertise, training, or a job that is relevant to what they are posting about?
+ [ARM3_1r4] Is this post trying to persuade me to think a certain way?
+ [ARM3_1r5] Is the post trying to sell a product or organisation?
+ [ARM3_1r6] Is this trying to grab my attention rather than give me facts?
+ [ARM3_1r7] Is the post a joke or satire?
+ [ARM3_1r8] Should I consider some other views?
+ [ARM3_1r9] Can I see any statistics or research to back this up?
+ [ARM3_1r10] Have I heard something that says the opposite to this from another source?
+ [ARM3_1r11] Can I see when this was posted?
+ [ARM3_1r12] Can I find something more recent on the same topic?
+ [ARM3_1r13] Has the content received a positive response?
+ [ARM3_1r14] Can I see lots of spelling mistakes?
+ [ARM3_1r15] Does the logo or branding look odd to me?
+ [ARM3_1r16] Do I think the images are good quality?
+ [ARM3_1r17] Do I think the visuals could have been altered in some way?
+
+ARM3_2: Please rank your three questions in order of importance.
+Values: 1-3
+ [ARM3_2r1] Can I see who or where this has come from?
+ [ARM3_2r2] Do I recognise the person or organisation posting? Can I trust them?
+ [ARM3_2r3] Does the person posting have expertise, training, or a job that is relevant to what they are posting about?'
+ [ARM3_2r4] Is this post trying to persuade me to think a certain way?
+ [ARM3_2r5] Is the post trying to sell a product or organisation?
+ [ARM3_2r6] Is this trying to grab my attention rather than give me facts?
+ [ARM3_2r7] Is the post a joke or satire?
+ [ARM3_2r8] Should I consider some other views?
+ [ARM3_2r9] Can I see any statistics or research to back this up?
+ [ARM3_2r10] Have I heard something that says the opposite to this from another source?
+ [ARM3_2r11] Can I see when this was posted?
+ [ARM3_2r12] Can I find something more recent on the same topic?
+ [ARM3_2r13] Has the content received a positive response?
+ [ARM3_2r14] Can I see lots of spelling mistakes?
+ [ARM3_2r15] Does the logo or branding look odd to me?
+ [ARM3_2r16] Do I think the images are good quality?
+ [ARM3_2r17] Do I think the visuals could have been altered in some way?
+
+[ARM3_3]: Please confirm if you are happy with your final checklist.
+Values: 1-2
+ 1=Yes - proceed to next question
+ 2=No - go back and amend
+
+[pipe_arm3Pipe]: Pipe arm3Pipe
+Values: 1-2
+ 1=Thank you for taking part in that short exercise.
+ 2=
+
+blurred_posts: holds which images screens are blurred for the respondent
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_postsr0] Test Screen
+ [blurred_postsr1] Misinfo 1
+ [blurred_postsr2] Misinfo 2
+ [blurred_postsr3] Misinfo 3
+ [blurred_postsr4] Misinfo 4
+ [blurred_postsr5] Misinfo 5
+ [blurred_postsr6] Misinfo 6
+ [blurred_postsr7] Misinfo 7
+ [blurred_postsr8] Misinfo 8
+ [blurred_postsr9] Misinfo 9
+ [blurred_postsr10] Misinfo 10
+ [blurred_postsr11] Misinfo 11
+ [blurred_postsr12] Misinfo 12
+ [blurred_postsr13] Misinfo 13
+ [blurred_postsr14] Misinfo 14
+ [blurred_postsr15] Misinfo 15
+ [blurred_postsr16] Legit 1
+ [blurred_postsr17] Legit 2
+ [blurred_postsr18] Legit 3
+ [blurred_postsr19] Legit 4
+ [blurred_postsr20] Legit 5
+ [blurred_postsr21] Legit 6
+ [blurred_postsr22] Legit 7
+ [blurred_postsr23] Legit 8
+ [blurred_postsr24] Legit 9
+ [blurred_postsr25] Legit 10
+ [blurred_postsr26] Legit 11
+ [blurred_postsr27] Legit 12
+ [blurred_postsr28] Legit 13
+ [blurred_postsr29] Legit 14
+ [blurred_postsr30] Legit 15
+
+options_button_0: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_0r1c2] ever clicked
+
+lcs_buttons_0r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_0r1c1] selected
+ [lcs_buttons_0r1c2] ever clicked
+
+lcs_buttons_0r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_0r2c1] selected
+ [lcs_buttons_0r2c2] ever clicked
+
+lcs_buttons_0r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_0r3c1] selected
+ [lcs_buttons_0r3c2] ever clicked
+
+options_buttons_0r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_0r1c1] selected
+ [options_buttons_0r1c2] ever clicked
+
+options_buttons_0r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_0r2c1] selected
+ [options_buttons_0r2c2] ever clicked
+
+options_buttons_0r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_0r3c1] selected
+ [options_buttons_0r3c2] ever clicked
+
+options_buttons_0r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_0r4c1] selected
+ [options_buttons_0r4c2] ever clicked
+
+share_buttons_0r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_0r1c1] selected
+ [share_buttons_0r1c2] ever clicked
+
+share_buttons_0r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_0r2c1] selected
+ [share_buttons_0r2c2] ever clicked
+
+share_buttons_0r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_0r3c1] selected
+ [share_buttons_0r3c2] ever clicked
+
+share_buttons_0r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_0r4c1] selected
+ [share_buttons_0r4c2] ever clicked
+
+share_buttons_0r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_0r5c1] selected
+ [share_buttons_0r5c2] ever clicked
+
+emoji_buttons_0r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_0r1c1] selected
+ [emoji_buttons_0r1c2] ever clicked
+
+emoji_buttons_0r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_0r2c1] selected
+ [emoji_buttons_0r2c2] ever clicked
+
+emoji_buttons_0r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_0r3c1] selected
+ [emoji_buttons_0r3c2] ever clicked
+
+emoji_buttons_0r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_0r4c1] selected
+ [emoji_buttons_0r4c2] ever clicked
+
+emoji_buttons_0r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_0r5c1] selected
+ [emoji_buttons_0r5c2] ever clicked
+
+emoji_buttons_0r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_0r6c1] selected
+ [emoji_buttons_0r6c2] ever clicked
+
+emoji_buttons_0r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_0r7c1] selected
+ [emoji_buttons_0r7c2] ever clicked
+
+report_buttons_0r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_0r1c1] selected
+ [report_buttons_0r1c2] ever clicked
+
+report_buttons_0r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_0r2c1] selected
+ [report_buttons_0r2c2] ever clicked
+
+report_buttons_0r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_0r3c1] selected
+ [report_buttons_0r3c2] ever clicked
+
+report_buttons_0r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_0r4c1] selected
+ [report_buttons_0r4c2] ever clicked
+
+report_buttons_0r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_0r5c1] selected
+ [report_buttons_0r5c2] ever clicked
+
+report_buttons_0r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_0r6c1] selected
+ [report_buttons_0r6c2] ever clicked
+
+report_buttons_0r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_0r7c1] selected
+ [report_buttons_0r7c2] ever clicked
+
+report_buttons_0r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_0r8c1] selected
+ [report_buttons_0r8c2] ever clicked
+
+report_buttons_0r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_0r9c1] selected
+ [report_buttons_0r9c2] ever clicked
+
+report_buttons_0r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_0r10c1] selected
+ [report_buttons_0r10c2] ever clicked
+
+report_buttons_0r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_0r11c1] selected
+ [report_buttons_0r11c2] ever clicked
+
+blurred_buttons_0: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_0r1c2] See why
+ [blurred_buttons_0r2c2] See post
+
+timers_0: hidden
+Values: 0-99999999
+ [timers_0r1] See post clicked (if blurred screen) /in seconds/
+ [timers_0r2] First interatction with post /in seconds/
+ [timers_0r3] Video length watched /in seconds/
+
+OEs_0: hidden
+Open text response
+ [OEs_0r1] Comment OE
+ [OEs_0r2] Report OE
+
+options_button_1: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_1r1c2] ever clicked
+
+lcs_buttons_1r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_1r1c1] selected
+ [lcs_buttons_1r1c2] ever clicked
+
+lcs_buttons_1r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_1r2c1] selected
+ [lcs_buttons_1r2c2] ever clicked
+
+lcs_buttons_1r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_1r3c1] selected
+ [lcs_buttons_1r3c2] ever clicked
+
+options_buttons_1r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_1r1c1] selected
+ [options_buttons_1r1c2] ever clicked
+
+options_buttons_1r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_1r2c1] selected
+ [options_buttons_1r2c2] ever clicked
+
+options_buttons_1r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_1r3c1] selected
+ [options_buttons_1r3c2] ever clicked
+
+options_buttons_1r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_1r4c1] selected
+ [options_buttons_1r4c2] ever clicked
+
+share_buttons_1r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_1r1c1] selected
+ [share_buttons_1r1c2] ever clicked
+
+share_buttons_1r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_1r2c1] selected
+ [share_buttons_1r2c2] ever clicked
+
+share_buttons_1r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_1r3c1] selected
+ [share_buttons_1r3c2] ever clicked
+
+share_buttons_1r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_1r4c1] selected
+ [share_buttons_1r4c2] ever clicked
+
+share_buttons_1r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_1r5c1] selected
+ [share_buttons_1r5c2] ever clicked
+
+emoji_buttons_1r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_1r1c1] selected
+ [emoji_buttons_1r1c2] ever clicked
+
+emoji_buttons_1r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_1r2c1] selected
+ [emoji_buttons_1r2c2] ever clicked
+
+emoji_buttons_1r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_1r3c1] selected
+ [emoji_buttons_1r3c2] ever clicked
+
+emoji_buttons_1r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_1r4c1] selected
+ [emoji_buttons_1r4c2] ever clicked
+
+emoji_buttons_1r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_1r5c1] selected
+ [emoji_buttons_1r5c2] ever clicked
+
+emoji_buttons_1r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_1r6c1] selected
+ [emoji_buttons_1r6c2] ever clicked
+
+emoji_buttons_1r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_1r7c1] selected
+ [emoji_buttons_1r7c2] ever clicked
+
+report_buttons_1r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_1r1c1] selected
+ [report_buttons_1r1c2] ever clicked
+
+report_buttons_1r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_1r2c1] selected
+ [report_buttons_1r2c2] ever clicked
+
+report_buttons_1r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_1r3c1] selected
+ [report_buttons_1r3c2] ever clicked
+
+report_buttons_1r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_1r4c1] selected
+ [report_buttons_1r4c2] ever clicked
+
+report_buttons_1r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_1r5c1] selected
+ [report_buttons_1r5c2] ever clicked
+
+report_buttons_1r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_1r6c1] selected
+ [report_buttons_1r6c2] ever clicked
+
+report_buttons_1r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_1r7c1] selected
+ [report_buttons_1r7c2] ever clicked
+
+report_buttons_1r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_1r8c1] selected
+ [report_buttons_1r8c2] ever clicked
+
+report_buttons_1r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_1r9c1] selected
+ [report_buttons_1r9c2] ever clicked
+
+report_buttons_1r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_1r10c1] selected
+ [report_buttons_1r10c2] ever clicked
+
+report_buttons_1r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_1r11c1] selected
+ [report_buttons_1r11c2] ever clicked
+
+blurred_buttons_1: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_1r1c2] See why
+ [blurred_buttons_1r2c2] See post
+
+timers_1: hidden
+Values: 0-99999999
+ [timers_1r1] See post clicked (if blurred screen) /in seconds/
+ [timers_1r2] First interatction with post /in seconds/
+ [timers_1r3] Video length watched /in seconds/
+
+OEs_1: hidden
+Open text response
+ [OEs_1r1] Comment OE
+ [OEs_1r2] Report OE
+
+options_button_2: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_2r1c2] ever clicked
+
+lcs_buttons_2r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_2r1c1] selected
+ [lcs_buttons_2r1c2] ever clicked
+
+lcs_buttons_2r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_2r2c1] selected
+ [lcs_buttons_2r2c2] ever clicked
+
+lcs_buttons_2r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_2r3c1] selected
+ [lcs_buttons_2r3c2] ever clicked
+
+options_buttons_2r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_2r1c1] selected
+ [options_buttons_2r1c2] ever clicked
+
+options_buttons_2r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_2r2c1] selected
+ [options_buttons_2r2c2] ever clicked
+
+options_buttons_2r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_2r3c1] selected
+ [options_buttons_2r3c2] ever clicked
+
+options_buttons_2r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_2r4c1] selected
+ [options_buttons_2r4c2] ever clicked
+
+share_buttons_2r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_2r1c1] selected
+ [share_buttons_2r1c2] ever clicked
+
+share_buttons_2r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_2r2c1] selected
+ [share_buttons_2r2c2] ever clicked
+
+share_buttons_2r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_2r3c1] selected
+ [share_buttons_2r3c2] ever clicked
+
+share_buttons_2r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_2r4c1] selected
+ [share_buttons_2r4c2] ever clicked
+
+share_buttons_2r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_2r5c1] selected
+ [share_buttons_2r5c2] ever clicked
+
+emoji_buttons_2r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_2r1c1] selected
+ [emoji_buttons_2r1c2] ever clicked
+
+emoji_buttons_2r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_2r2c1] selected
+ [emoji_buttons_2r2c2] ever clicked
+
+emoji_buttons_2r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_2r3c1] selected
+ [emoji_buttons_2r3c2] ever clicked
+
+emoji_buttons_2r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_2r4c1] selected
+ [emoji_buttons_2r4c2] ever clicked
+
+emoji_buttons_2r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_2r5c1] selected
+ [emoji_buttons_2r5c2] ever clicked
+
+emoji_buttons_2r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_2r6c1] selected
+ [emoji_buttons_2r6c2] ever clicked
+
+emoji_buttons_2r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_2r7c1] selected
+ [emoji_buttons_2r7c2] ever clicked
+
+report_buttons_2r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_2r1c1] selected
+ [report_buttons_2r1c2] ever clicked
+
+report_buttons_2r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_2r2c1] selected
+ [report_buttons_2r2c2] ever clicked
+
+report_buttons_2r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_2r3c1] selected
+ [report_buttons_2r3c2] ever clicked
+
+report_buttons_2r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_2r4c1] selected
+ [report_buttons_2r4c2] ever clicked
+
+report_buttons_2r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_2r5c1] selected
+ [report_buttons_2r5c2] ever clicked
+
+report_buttons_2r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_2r6c1] selected
+ [report_buttons_2r6c2] ever clicked
+
+report_buttons_2r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_2r7c1] selected
+ [report_buttons_2r7c2] ever clicked
+
+report_buttons_2r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_2r8c1] selected
+ [report_buttons_2r8c2] ever clicked
+
+report_buttons_2r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_2r9c1] selected
+ [report_buttons_2r9c2] ever clicked
+
+report_buttons_2r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_2r10c1] selected
+ [report_buttons_2r10c2] ever clicked
+
+report_buttons_2r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_2r11c1] selected
+ [report_buttons_2r11c2] ever clicked
+
+blurred_buttons_2: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_2r1c2] See why
+ [blurred_buttons_2r2c2] See post
+
+timers_2: hidden
+Values: 0-99999999
+ [timers_2r1] See post clicked (if blurred screen) /in seconds/
+ [timers_2r2] First interatction with post /in seconds/
+ [timers_2r3] Video length watched /in seconds/
+
+OEs_2: hidden
+Open text response
+ [OEs_2r1] Comment OE
+ [OEs_2r2] Report OE
+
+options_button_3: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_3r1c2] ever clicked
+
+lcs_buttons_3r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_3r1c1] selected
+ [lcs_buttons_3r1c2] ever clicked
+
+lcs_buttons_3r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_3r2c1] selected
+ [lcs_buttons_3r2c2] ever clicked
+
+lcs_buttons_3r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_3r3c1] selected
+ [lcs_buttons_3r3c2] ever clicked
+
+options_buttons_3r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_3r1c1] selected
+ [options_buttons_3r1c2] ever clicked
+
+options_buttons_3r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_3r2c1] selected
+ [options_buttons_3r2c2] ever clicked
+
+options_buttons_3r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_3r3c1] selected
+ [options_buttons_3r3c2] ever clicked
+
+options_buttons_3r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_3r4c1] selected
+ [options_buttons_3r4c2] ever clicked
+
+share_buttons_3r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_3r1c1] selected
+ [share_buttons_3r1c2] ever clicked
+
+share_buttons_3r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_3r2c1] selected
+ [share_buttons_3r2c2] ever clicked
+
+share_buttons_3r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_3r3c1] selected
+ [share_buttons_3r3c2] ever clicked
+
+share_buttons_3r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_3r4c1] selected
+ [share_buttons_3r4c2] ever clicked
+
+share_buttons_3r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_3r5c1] selected
+ [share_buttons_3r5c2] ever clicked
+
+emoji_buttons_3r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_3r1c1] selected
+ [emoji_buttons_3r1c2] ever clicked
+
+emoji_buttons_3r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_3r2c1] selected
+ [emoji_buttons_3r2c2] ever clicked
+
+emoji_buttons_3r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_3r3c1] selected
+ [emoji_buttons_3r3c2] ever clicked
+
+emoji_buttons_3r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_3r4c1] selected
+ [emoji_buttons_3r4c2] ever clicked
+
+emoji_buttons_3r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_3r5c1] selected
+ [emoji_buttons_3r5c2] ever clicked
+
+emoji_buttons_3r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_3r6c1] selected
+ [emoji_buttons_3r6c2] ever clicked
+
+emoji_buttons_3r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_3r7c1] selected
+ [emoji_buttons_3r7c2] ever clicked
+
+report_buttons_3r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_3r1c1] selected
+ [report_buttons_3r1c2] ever clicked
+
+report_buttons_3r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_3r2c1] selected
+ [report_buttons_3r2c2] ever clicked
+
+report_buttons_3r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_3r3c1] selected
+ [report_buttons_3r3c2] ever clicked
+
+report_buttons_3r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_3r4c1] selected
+ [report_buttons_3r4c2] ever clicked
+
+report_buttons_3r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_3r5c1] selected
+ [report_buttons_3r5c2] ever clicked
+
+report_buttons_3r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_3r6c1] selected
+ [report_buttons_3r6c2] ever clicked
+
+report_buttons_3r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_3r7c1] selected
+ [report_buttons_3r7c2] ever clicked
+
+report_buttons_3r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_3r8c1] selected
+ [report_buttons_3r8c2] ever clicked
+
+report_buttons_3r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_3r9c1] selected
+ [report_buttons_3r9c2] ever clicked
+
+report_buttons_3r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_3r10c1] selected
+ [report_buttons_3r10c2] ever clicked
+
+report_buttons_3r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_3r11c1] selected
+ [report_buttons_3r11c2] ever clicked
+
+blurred_buttons_3: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_3r1c2] See why
+ [blurred_buttons_3r2c2] See post
+
+timers_3: hidden
+Values: 0-99999999
+ [timers_3r1] See post clicked (if blurred screen) /in seconds/
+ [timers_3r2] First interatction with post /in seconds/
+ [timers_3r3] Video length watched /in seconds/
+
+OEs_3: hidden
+Open text response
+ [OEs_3r1] Comment OE
+ [OEs_3r2] Report OE
+
+options_button_4: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_4r1c2] ever clicked
+
+lcs_buttons_4r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_4r1c1] selected
+ [lcs_buttons_4r1c2] ever clicked
+
+lcs_buttons_4r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_4r2c1] selected
+ [lcs_buttons_4r2c2] ever clicked
+
+lcs_buttons_4r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_4r3c1] selected
+ [lcs_buttons_4r3c2] ever clicked
+
+options_buttons_4r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_4r1c1] selected
+ [options_buttons_4r1c2] ever clicked
+
+options_buttons_4r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_4r2c1] selected
+ [options_buttons_4r2c2] ever clicked
+
+options_buttons_4r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_4r3c1] selected
+ [options_buttons_4r3c2] ever clicked
+
+options_buttons_4r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_4r4c1] selected
+ [options_buttons_4r4c2] ever clicked
+
+share_buttons_4r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_4r1c1] selected
+ [share_buttons_4r1c2] ever clicked
+
+share_buttons_4r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_4r2c1] selected
+ [share_buttons_4r2c2] ever clicked
+
+share_buttons_4r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_4r3c1] selected
+ [share_buttons_4r3c2] ever clicked
+
+share_buttons_4r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_4r4c1] selected
+ [share_buttons_4r4c2] ever clicked
+
+share_buttons_4r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_4r5c1] selected
+ [share_buttons_4r5c2] ever clicked
+
+emoji_buttons_4r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_4r1c1] selected
+ [emoji_buttons_4r1c2] ever clicked
+
+emoji_buttons_4r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_4r2c1] selected
+ [emoji_buttons_4r2c2] ever clicked
+
+emoji_buttons_4r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_4r3c1] selected
+ [emoji_buttons_4r3c2] ever clicked
+
+emoji_buttons_4r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_4r4c1] selected
+ [emoji_buttons_4r4c2] ever clicked
+
+emoji_buttons_4r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_4r5c1] selected
+ [emoji_buttons_4r5c2] ever clicked
+
+emoji_buttons_4r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_4r6c1] selected
+ [emoji_buttons_4r6c2] ever clicked
+
+emoji_buttons_4r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_4r7c1] selected
+ [emoji_buttons_4r7c2] ever clicked
+
+report_buttons_4r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_4r1c1] selected
+ [report_buttons_4r1c2] ever clicked
+
+report_buttons_4r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_4r2c1] selected
+ [report_buttons_4r2c2] ever clicked
+
+report_buttons_4r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_4r3c1] selected
+ [report_buttons_4r3c2] ever clicked
+
+report_buttons_4r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_4r4c1] selected
+ [report_buttons_4r4c2] ever clicked
+
+report_buttons_4r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_4r5c1] selected
+ [report_buttons_4r5c2] ever clicked
+
+report_buttons_4r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_4r6c1] selected
+ [report_buttons_4r6c2] ever clicked
+
+report_buttons_4r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_4r7c1] selected
+ [report_buttons_4r7c2] ever clicked
+
+report_buttons_4r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_4r8c1] selected
+ [report_buttons_4r8c2] ever clicked
+
+report_buttons_4r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_4r9c1] selected
+ [report_buttons_4r9c2] ever clicked
+
+report_buttons_4r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_4r10c1] selected
+ [report_buttons_4r10c2] ever clicked
+
+report_buttons_4r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_4r11c1] selected
+ [report_buttons_4r11c2] ever clicked
+
+blurred_buttons_4: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_4r1c2] See why
+ [blurred_buttons_4r2c2] See post
+
+timers_4: hidden
+Values: 0-99999999
+ [timers_4r1] See post clicked (if blurred screen) /in seconds/
+ [timers_4r2] First interatction with post /in seconds/
+ [timers_4r3] Video length watched /in seconds/
+
+OEs_4: hidden
+Open text response
+ [OEs_4r1] Comment OE
+ [OEs_4r2] Report OE
+
+options_button_5: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_5r1c2] ever clicked
+
+lcs_buttons_5r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_5r1c1] selected
+ [lcs_buttons_5r1c2] ever clicked
+
+lcs_buttons_5r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_5r2c1] selected
+ [lcs_buttons_5r2c2] ever clicked
+
+lcs_buttons_5r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_5r3c1] selected
+ [lcs_buttons_5r3c2] ever clicked
+
+options_buttons_5r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_5r1c1] selected
+ [options_buttons_5r1c2] ever clicked
+
+options_buttons_5r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_5r2c1] selected
+ [options_buttons_5r2c2] ever clicked
+
+options_buttons_5r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_5r3c1] selected
+ [options_buttons_5r3c2] ever clicked
+
+options_buttons_5r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_5r4c1] selected
+ [options_buttons_5r4c2] ever clicked
+
+share_buttons_5r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_5r1c1] selected
+ [share_buttons_5r1c2] ever clicked
+
+share_buttons_5r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_5r2c1] selected
+ [share_buttons_5r2c2] ever clicked
+
+share_buttons_5r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_5r3c1] selected
+ [share_buttons_5r3c2] ever clicked
+
+share_buttons_5r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_5r4c1] selected
+ [share_buttons_5r4c2] ever clicked
+
+share_buttons_5r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_5r5c1] selected
+ [share_buttons_5r5c2] ever clicked
+
+emoji_buttons_5r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_5r1c1] selected
+ [emoji_buttons_5r1c2] ever clicked
+
+emoji_buttons_5r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_5r2c1] selected
+ [emoji_buttons_5r2c2] ever clicked
+
+emoji_buttons_5r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_5r3c1] selected
+ [emoji_buttons_5r3c2] ever clicked
+
+emoji_buttons_5r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_5r4c1] selected
+ [emoji_buttons_5r4c2] ever clicked
+
+emoji_buttons_5r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_5r5c1] selected
+ [emoji_buttons_5r5c2] ever clicked
+
+emoji_buttons_5r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_5r6c1] selected
+ [emoji_buttons_5r6c2] ever clicked
+
+emoji_buttons_5r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_5r7c1] selected
+ [emoji_buttons_5r7c2] ever clicked
+
+report_buttons_5r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_5r1c1] selected
+ [report_buttons_5r1c2] ever clicked
+
+report_buttons_5r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_5r2c1] selected
+ [report_buttons_5r2c2] ever clicked
+
+report_buttons_5r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_5r3c1] selected
+ [report_buttons_5r3c2] ever clicked
+
+report_buttons_5r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_5r4c1] selected
+ [report_buttons_5r4c2] ever clicked
+
+report_buttons_5r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_5r5c1] selected
+ [report_buttons_5r5c2] ever clicked
+
+report_buttons_5r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_5r6c1] selected
+ [report_buttons_5r6c2] ever clicked
+
+report_buttons_5r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_5r7c1] selected
+ [report_buttons_5r7c2] ever clicked
+
+report_buttons_5r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_5r8c1] selected
+ [report_buttons_5r8c2] ever clicked
+
+report_buttons_5r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_5r9c1] selected
+ [report_buttons_5r9c2] ever clicked
+
+report_buttons_5r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_5r10c1] selected
+ [report_buttons_5r10c2] ever clicked
+
+report_buttons_5r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_5r11c1] selected
+ [report_buttons_5r11c2] ever clicked
+
+blurred_buttons_5: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_5r1c2] See why
+ [blurred_buttons_5r2c2] See post
+
+timers_5: hidden
+Values: 0-99999999
+ [timers_5r1] See post clicked (if blurred screen) /in seconds/
+ [timers_5r2] First interatction with post /in seconds/
+ [timers_5r3] Video length watched /in seconds/
+
+OEs_5: hidden
+Open text response
+ [OEs_5r1] Comment OE
+ [OEs_5r2] Report OE
+
+options_button_6: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_6r1c2] ever clicked
+
+lcs_buttons_6r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_6r1c1] selected
+ [lcs_buttons_6r1c2] ever clicked
+
+lcs_buttons_6r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_6r2c1] selected
+ [lcs_buttons_6r2c2] ever clicked
+
+lcs_buttons_6r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_6r3c1] selected
+ [lcs_buttons_6r3c2] ever clicked
+
+options_buttons_6r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_6r1c1] selected
+ [options_buttons_6r1c2] ever clicked
+
+options_buttons_6r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_6r2c1] selected
+ [options_buttons_6r2c2] ever clicked
+
+options_buttons_6r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_6r3c1] selected
+ [options_buttons_6r3c2] ever clicked
+
+options_buttons_6r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_6r4c1] selected
+ [options_buttons_6r4c2] ever clicked
+
+share_buttons_6r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_6r1c1] selected
+ [share_buttons_6r1c2] ever clicked
+
+share_buttons_6r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_6r2c1] selected
+ [share_buttons_6r2c2] ever clicked
+
+share_buttons_6r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_6r3c1] selected
+ [share_buttons_6r3c2] ever clicked
+
+share_buttons_6r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_6r4c1] selected
+ [share_buttons_6r4c2] ever clicked
+
+share_buttons_6r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_6r5c1] selected
+ [share_buttons_6r5c2] ever clicked
+
+emoji_buttons_6r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_6r1c1] selected
+ [emoji_buttons_6r1c2] ever clicked
+
+emoji_buttons_6r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_6r2c1] selected
+ [emoji_buttons_6r2c2] ever clicked
+
+emoji_buttons_6r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_6r3c1] selected
+ [emoji_buttons_6r3c2] ever clicked
+
+emoji_buttons_6r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_6r4c1] selected
+ [emoji_buttons_6r4c2] ever clicked
+
+emoji_buttons_6r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_6r5c1] selected
+ [emoji_buttons_6r5c2] ever clicked
+
+emoji_buttons_6r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_6r6c1] selected
+ [emoji_buttons_6r6c2] ever clicked
+
+emoji_buttons_6r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_6r7c1] selected
+ [emoji_buttons_6r7c2] ever clicked
+
+report_buttons_6r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_6r1c1] selected
+ [report_buttons_6r1c2] ever clicked
+
+report_buttons_6r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_6r2c1] selected
+ [report_buttons_6r2c2] ever clicked
+
+report_buttons_6r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_6r3c1] selected
+ [report_buttons_6r3c2] ever clicked
+
+report_buttons_6r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_6r4c1] selected
+ [report_buttons_6r4c2] ever clicked
+
+report_buttons_6r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_6r5c1] selected
+ [report_buttons_6r5c2] ever clicked
+
+report_buttons_6r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_6r6c1] selected
+ [report_buttons_6r6c2] ever clicked
+
+report_buttons_6r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_6r7c1] selected
+ [report_buttons_6r7c2] ever clicked
+
+report_buttons_6r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_6r8c1] selected
+ [report_buttons_6r8c2] ever clicked
+
+report_buttons_6r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_6r9c1] selected
+ [report_buttons_6r9c2] ever clicked
+
+report_buttons_6r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_6r10c1] selected
+ [report_buttons_6r10c2] ever clicked
+
+report_buttons_6r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_6r11c1] selected
+ [report_buttons_6r11c2] ever clicked
+
+blurred_buttons_6: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_6r1c2] See why
+ [blurred_buttons_6r2c2] See post
+
+timers_6: hidden
+Values: 0-99999999
+ [timers_6r1] See post clicked (if blurred screen) /in seconds/
+ [timers_6r2] First interatction with post /in seconds/
+ [timers_6r3] Video length watched /in seconds/
+
+OEs_6: hidden
+Open text response
+ [OEs_6r1] Comment OE
+ [OEs_6r2] Report OE
+
+options_button_7: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_7r1c2] ever clicked
+
+lcs_buttons_7r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_7r1c1] selected
+ [lcs_buttons_7r1c2] ever clicked
+
+lcs_buttons_7r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_7r2c1] selected
+ [lcs_buttons_7r2c2] ever clicked
+
+lcs_buttons_7r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_7r3c1] selected
+ [lcs_buttons_7r3c2] ever clicked
+
+options_buttons_7r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_7r1c1] selected
+ [options_buttons_7r1c2] ever clicked
+
+options_buttons_7r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_7r2c1] selected
+ [options_buttons_7r2c2] ever clicked
+
+options_buttons_7r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_7r3c1] selected
+ [options_buttons_7r3c2] ever clicked
+
+options_buttons_7r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_7r4c1] selected
+ [options_buttons_7r4c2] ever clicked
+
+share_buttons_7r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_7r1c1] selected
+ [share_buttons_7r1c2] ever clicked
+
+share_buttons_7r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_7r2c1] selected
+ [share_buttons_7r2c2] ever clicked
+
+share_buttons_7r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_7r3c1] selected
+ [share_buttons_7r3c2] ever clicked
+
+share_buttons_7r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_7r4c1] selected
+ [share_buttons_7r4c2] ever clicked
+
+share_buttons_7r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_7r5c1] selected
+ [share_buttons_7r5c2] ever clicked
+
+emoji_buttons_7r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_7r1c1] selected
+ [emoji_buttons_7r1c2] ever clicked
+
+emoji_buttons_7r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_7r2c1] selected
+ [emoji_buttons_7r2c2] ever clicked
+
+emoji_buttons_7r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_7r3c1] selected
+ [emoji_buttons_7r3c2] ever clicked
+
+emoji_buttons_7r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_7r4c1] selected
+ [emoji_buttons_7r4c2] ever clicked
+
+emoji_buttons_7r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_7r5c1] selected
+ [emoji_buttons_7r5c2] ever clicked
+
+emoji_buttons_7r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_7r6c1] selected
+ [emoji_buttons_7r6c2] ever clicked
+
+emoji_buttons_7r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_7r7c1] selected
+ [emoji_buttons_7r7c2] ever clicked
+
+report_buttons_7r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_7r1c1] selected
+ [report_buttons_7r1c2] ever clicked
+
+report_buttons_7r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_7r2c1] selected
+ [report_buttons_7r2c2] ever clicked
+
+report_buttons_7r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_7r3c1] selected
+ [report_buttons_7r3c2] ever clicked
+
+report_buttons_7r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_7r4c1] selected
+ [report_buttons_7r4c2] ever clicked
+
+report_buttons_7r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_7r5c1] selected
+ [report_buttons_7r5c2] ever clicked
+
+report_buttons_7r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_7r6c1] selected
+ [report_buttons_7r6c2] ever clicked
+
+report_buttons_7r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_7r7c1] selected
+ [report_buttons_7r7c2] ever clicked
+
+report_buttons_7r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_7r8c1] selected
+ [report_buttons_7r8c2] ever clicked
+
+report_buttons_7r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_7r9c1] selected
+ [report_buttons_7r9c2] ever clicked
+
+report_buttons_7r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_7r10c1] selected
+ [report_buttons_7r10c2] ever clicked
+
+report_buttons_7r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_7r11c1] selected
+ [report_buttons_7r11c2] ever clicked
+
+blurred_buttons_7: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_7r1c2] See why
+ [blurred_buttons_7r2c2] See post
+
+timers_7: hidden
+Values: 0-99999999
+ [timers_7r1] See post clicked (if blurred screen) /in seconds/
+ [timers_7r2] First interatction with post /in seconds/
+ [timers_7r3] Video length watched /in seconds/
+
+OEs_7: hidden
+Open text response
+ [OEs_7r1] Comment OE
+ [OEs_7r2] Report OE
+
+options_button_8: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_8r1c2] ever clicked
+
+lcs_buttons_8r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_8r1c1] selected
+ [lcs_buttons_8r1c2] ever clicked
+
+lcs_buttons_8r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_8r2c1] selected
+ [lcs_buttons_8r2c2] ever clicked
+
+lcs_buttons_8r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_8r3c1] selected
+ [lcs_buttons_8r3c2] ever clicked
+
+options_buttons_8r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_8r1c1] selected
+ [options_buttons_8r1c2] ever clicked
+
+options_buttons_8r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_8r2c1] selected
+ [options_buttons_8r2c2] ever clicked
+
+options_buttons_8r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_8r3c1] selected
+ [options_buttons_8r3c2] ever clicked
+
+options_buttons_8r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_8r4c1] selected
+ [options_buttons_8r4c2] ever clicked
+
+share_buttons_8r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_8r1c1] selected
+ [share_buttons_8r1c2] ever clicked
+
+share_buttons_8r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_8r2c1] selected
+ [share_buttons_8r2c2] ever clicked
+
+share_buttons_8r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_8r3c1] selected
+ [share_buttons_8r3c2] ever clicked
+
+share_buttons_8r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_8r4c1] selected
+ [share_buttons_8r4c2] ever clicked
+
+share_buttons_8r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_8r5c1] selected
+ [share_buttons_8r5c2] ever clicked
+
+emoji_buttons_8r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_8r1c1] selected
+ [emoji_buttons_8r1c2] ever clicked
+
+emoji_buttons_8r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_8r2c1] selected
+ [emoji_buttons_8r2c2] ever clicked
+
+emoji_buttons_8r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_8r3c1] selected
+ [emoji_buttons_8r3c2] ever clicked
+
+emoji_buttons_8r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_8r4c1] selected
+ [emoji_buttons_8r4c2] ever clicked
+
+emoji_buttons_8r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_8r5c1] selected
+ [emoji_buttons_8r5c2] ever clicked
+
+emoji_buttons_8r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_8r6c1] selected
+ [emoji_buttons_8r6c2] ever clicked
+
+emoji_buttons_8r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_8r7c1] selected
+ [emoji_buttons_8r7c2] ever clicked
+
+report_buttons_8r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_8r1c1] selected
+ [report_buttons_8r1c2] ever clicked
+
+report_buttons_8r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_8r2c1] selected
+ [report_buttons_8r2c2] ever clicked
+
+report_buttons_8r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_8r3c1] selected
+ [report_buttons_8r3c2] ever clicked
+
+report_buttons_8r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_8r4c1] selected
+ [report_buttons_8r4c2] ever clicked
+
+report_buttons_8r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_8r5c1] selected
+ [report_buttons_8r5c2] ever clicked
+
+report_buttons_8r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_8r6c1] selected
+ [report_buttons_8r6c2] ever clicked
+
+report_buttons_8r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_8r7c1] selected
+ [report_buttons_8r7c2] ever clicked
+
+report_buttons_8r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_8r8c1] selected
+ [report_buttons_8r8c2] ever clicked
+
+report_buttons_8r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_8r9c1] selected
+ [report_buttons_8r9c2] ever clicked
+
+report_buttons_8r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_8r10c1] selected
+ [report_buttons_8r10c2] ever clicked
+
+report_buttons_8r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_8r11c1] selected
+ [report_buttons_8r11c2] ever clicked
+
+blurred_buttons_8: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_8r1c2] See why
+ [blurred_buttons_8r2c2] See post
+
+timers_8: hidden
+Values: 0-99999999
+ [timers_8r1] See post clicked (if blurred screen) /in seconds/
+ [timers_8r2] First interatction with post /in seconds/
+ [timers_8r3] Video length watched /in seconds/
+
+OEs_8: hidden
+Open text response
+ [OEs_8r1] Comment OE
+ [OEs_8r2] Report OE
+
+options_button_9: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_9r1c2] ever clicked
+
+lcs_buttons_9r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_9r1c1] selected
+ [lcs_buttons_9r1c2] ever clicked
+
+lcs_buttons_9r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_9r2c1] selected
+ [lcs_buttons_9r2c2] ever clicked
+
+lcs_buttons_9r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_9r3c1] selected
+ [lcs_buttons_9r3c2] ever clicked
+
+options_buttons_9r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_9r1c1] selected
+ [options_buttons_9r1c2] ever clicked
+
+options_buttons_9r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_9r2c1] selected
+ [options_buttons_9r2c2] ever clicked
+
+options_buttons_9r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_9r3c1] selected
+ [options_buttons_9r3c2] ever clicked
+
+options_buttons_9r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_9r4c1] selected
+ [options_buttons_9r4c2] ever clicked
+
+share_buttons_9r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_9r1c1] selected
+ [share_buttons_9r1c2] ever clicked
+
+share_buttons_9r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_9r2c1] selected
+ [share_buttons_9r2c2] ever clicked
+
+share_buttons_9r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_9r3c1] selected
+ [share_buttons_9r3c2] ever clicked
+
+share_buttons_9r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_9r4c1] selected
+ [share_buttons_9r4c2] ever clicked
+
+share_buttons_9r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_9r5c1] selected
+ [share_buttons_9r5c2] ever clicked
+
+emoji_buttons_9r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_9r1c1] selected
+ [emoji_buttons_9r1c2] ever clicked
+
+emoji_buttons_9r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_9r2c1] selected
+ [emoji_buttons_9r2c2] ever clicked
+
+emoji_buttons_9r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_9r3c1] selected
+ [emoji_buttons_9r3c2] ever clicked
+
+emoji_buttons_9r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_9r4c1] selected
+ [emoji_buttons_9r4c2] ever clicked
+
+emoji_buttons_9r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_9r5c1] selected
+ [emoji_buttons_9r5c2] ever clicked
+
+emoji_buttons_9r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_9r6c1] selected
+ [emoji_buttons_9r6c2] ever clicked
+
+emoji_buttons_9r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_9r7c1] selected
+ [emoji_buttons_9r7c2] ever clicked
+
+report_buttons_9r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_9r1c1] selected
+ [report_buttons_9r1c2] ever clicked
+
+report_buttons_9r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_9r2c1] selected
+ [report_buttons_9r2c2] ever clicked
+
+report_buttons_9r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_9r3c1] selected
+ [report_buttons_9r3c2] ever clicked
+
+report_buttons_9r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_9r4c1] selected
+ [report_buttons_9r4c2] ever clicked
+
+report_buttons_9r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_9r5c1] selected
+ [report_buttons_9r5c2] ever clicked
+
+report_buttons_9r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_9r6c1] selected
+ [report_buttons_9r6c2] ever clicked
+
+report_buttons_9r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_9r7c1] selected
+ [report_buttons_9r7c2] ever clicked
+
+report_buttons_9r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_9r8c1] selected
+ [report_buttons_9r8c2] ever clicked
+
+report_buttons_9r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_9r9c1] selected
+ [report_buttons_9r9c2] ever clicked
+
+report_buttons_9r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_9r10c1] selected
+ [report_buttons_9r10c2] ever clicked
+
+report_buttons_9r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_9r11c1] selected
+ [report_buttons_9r11c2] ever clicked
+
+blurred_buttons_9: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_9r1c2] See why
+ [blurred_buttons_9r2c2] See post
+
+timers_9: hidden
+Values: 0-99999999
+ [timers_9r1] See post clicked (if blurred screen) /in seconds/
+ [timers_9r2] First interatction with post /in seconds/
+ [timers_9r3] Video length watched /in seconds/
+
+OEs_9: hidden
+Open text response
+ [OEs_9r1] Comment OE
+ [OEs_9r2] Report OE
+
+options_button_10: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_10r1c2] ever clicked
+
+lcs_buttons_10r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_10r1c1] selected
+ [lcs_buttons_10r1c2] ever clicked
+
+lcs_buttons_10r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_10r2c1] selected
+ [lcs_buttons_10r2c2] ever clicked
+
+lcs_buttons_10r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_10r3c1] selected
+ [lcs_buttons_10r3c2] ever clicked
+
+options_buttons_10r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_10r1c1] selected
+ [options_buttons_10r1c2] ever clicked
+
+options_buttons_10r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_10r2c1] selected
+ [options_buttons_10r2c2] ever clicked
+
+options_buttons_10r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_10r3c1] selected
+ [options_buttons_10r3c2] ever clicked
+
+options_buttons_10r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_10r4c1] selected
+ [options_buttons_10r4c2] ever clicked
+
+share_buttons_10r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_10r1c1] selected
+ [share_buttons_10r1c2] ever clicked
+
+share_buttons_10r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_10r2c1] selected
+ [share_buttons_10r2c2] ever clicked
+
+share_buttons_10r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_10r3c1] selected
+ [share_buttons_10r3c2] ever clicked
+
+share_buttons_10r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_10r4c1] selected
+ [share_buttons_10r4c2] ever clicked
+
+share_buttons_10r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_10r5c1] selected
+ [share_buttons_10r5c2] ever clicked
+
+emoji_buttons_10r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_10r1c1] selected
+ [emoji_buttons_10r1c2] ever clicked
+
+emoji_buttons_10r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_10r2c1] selected
+ [emoji_buttons_10r2c2] ever clicked
+
+emoji_buttons_10r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_10r3c1] selected
+ [emoji_buttons_10r3c2] ever clicked
+
+emoji_buttons_10r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_10r4c1] selected
+ [emoji_buttons_10r4c2] ever clicked
+
+emoji_buttons_10r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_10r5c1] selected
+ [emoji_buttons_10r5c2] ever clicked
+
+emoji_buttons_10r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_10r6c1] selected
+ [emoji_buttons_10r6c2] ever clicked
+
+emoji_buttons_10r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_10r7c1] selected
+ [emoji_buttons_10r7c2] ever clicked
+
+report_buttons_10r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_10r1c1] selected
+ [report_buttons_10r1c2] ever clicked
+
+report_buttons_10r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_10r2c1] selected
+ [report_buttons_10r2c2] ever clicked
+
+report_buttons_10r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_10r3c1] selected
+ [report_buttons_10r3c2] ever clicked
+
+report_buttons_10r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_10r4c1] selected
+ [report_buttons_10r4c2] ever clicked
+
+report_buttons_10r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_10r5c1] selected
+ [report_buttons_10r5c2] ever clicked
+
+report_buttons_10r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_10r6c1] selected
+ [report_buttons_10r6c2] ever clicked
+
+report_buttons_10r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_10r7c1] selected
+ [report_buttons_10r7c2] ever clicked
+
+report_buttons_10r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_10r8c1] selected
+ [report_buttons_10r8c2] ever clicked
+
+report_buttons_10r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_10r9c1] selected
+ [report_buttons_10r9c2] ever clicked
+
+report_buttons_10r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_10r10c1] selected
+ [report_buttons_10r10c2] ever clicked
+
+report_buttons_10r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_10r11c1] selected
+ [report_buttons_10r11c2] ever clicked
+
+blurred_buttons_10: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_10r1c2] See why
+ [blurred_buttons_10r2c2] See post
+
+timers_10: hidden
+Values: 0-99999999
+ [timers_10r1] See post clicked (if blurred screen) /in seconds/
+ [timers_10r2] First interatction with post /in seconds/
+ [timers_10r3] Video length watched /in seconds/
+
+OEs_10: hidden
+Open text response
+ [OEs_10r1] Comment OE
+ [OEs_10r2] Report OE
+
+options_button_11: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_11r1c2] ever clicked
+
+lcs_buttons_11r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_11r1c1] selected
+ [lcs_buttons_11r1c2] ever clicked
+
+lcs_buttons_11r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_11r2c1] selected
+ [lcs_buttons_11r2c2] ever clicked
+
+lcs_buttons_11r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_11r3c1] selected
+ [lcs_buttons_11r3c2] ever clicked
+
+options_buttons_11r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_11r1c1] selected
+ [options_buttons_11r1c2] ever clicked
+
+options_buttons_11r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_11r2c1] selected
+ [options_buttons_11r2c2] ever clicked
+
+options_buttons_11r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_11r3c1] selected
+ [options_buttons_11r3c2] ever clicked
+
+options_buttons_11r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_11r4c1] selected
+ [options_buttons_11r4c2] ever clicked
+
+share_buttons_11r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_11r1c1] selected
+ [share_buttons_11r1c2] ever clicked
+
+share_buttons_11r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_11r2c1] selected
+ [share_buttons_11r2c2] ever clicked
+
+share_buttons_11r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_11r3c1] selected
+ [share_buttons_11r3c2] ever clicked
+
+share_buttons_11r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_11r4c1] selected
+ [share_buttons_11r4c2] ever clicked
+
+share_buttons_11r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_11r5c1] selected
+ [share_buttons_11r5c2] ever clicked
+
+emoji_buttons_11r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_11r1c1] selected
+ [emoji_buttons_11r1c2] ever clicked
+
+emoji_buttons_11r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_11r2c1] selected
+ [emoji_buttons_11r2c2] ever clicked
+
+emoji_buttons_11r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_11r3c1] selected
+ [emoji_buttons_11r3c2] ever clicked
+
+emoji_buttons_11r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_11r4c1] selected
+ [emoji_buttons_11r4c2] ever clicked
+
+emoji_buttons_11r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_11r5c1] selected
+ [emoji_buttons_11r5c2] ever clicked
+
+emoji_buttons_11r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_11r6c1] selected
+ [emoji_buttons_11r6c2] ever clicked
+
+emoji_buttons_11r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_11r7c1] selected
+ [emoji_buttons_11r7c2] ever clicked
+
+report_buttons_11r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_11r1c1] selected
+ [report_buttons_11r1c2] ever clicked
+
+report_buttons_11r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_11r2c1] selected
+ [report_buttons_11r2c2] ever clicked
+
+report_buttons_11r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_11r3c1] selected
+ [report_buttons_11r3c2] ever clicked
+
+report_buttons_11r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_11r4c1] selected
+ [report_buttons_11r4c2] ever clicked
+
+report_buttons_11r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_11r5c1] selected
+ [report_buttons_11r5c2] ever clicked
+
+report_buttons_11r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_11r6c1] selected
+ [report_buttons_11r6c2] ever clicked
+
+report_buttons_11r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_11r7c1] selected
+ [report_buttons_11r7c2] ever clicked
+
+report_buttons_11r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_11r8c1] selected
+ [report_buttons_11r8c2] ever clicked
+
+report_buttons_11r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_11r9c1] selected
+ [report_buttons_11r9c2] ever clicked
+
+report_buttons_11r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_11r10c1] selected
+ [report_buttons_11r10c2] ever clicked
+
+report_buttons_11r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_11r11c1] selected
+ [report_buttons_11r11c2] ever clicked
+
+blurred_buttons_11: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_11r1c2] See why
+ [blurred_buttons_11r2c2] See post
+
+timers_11: hidden
+Values: 0-99999999
+ [timers_11r1] See post clicked (if blurred screen) /in seconds/
+ [timers_11r2] First interatction with post /in seconds/
+ [timers_11r3] Video length watched /in seconds/
+
+OEs_11: hidden
+Open text response
+ [OEs_11r1] Comment OE
+ [OEs_11r2] Report OE
+
+options_button_12: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_12r1c2] ever clicked
+
+lcs_buttons_12r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_12r1c1] selected
+ [lcs_buttons_12r1c2] ever clicked
+
+lcs_buttons_12r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_12r2c1] selected
+ [lcs_buttons_12r2c2] ever clicked
+
+lcs_buttons_12r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_12r3c1] selected
+ [lcs_buttons_12r3c2] ever clicked
+
+options_buttons_12r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_12r1c1] selected
+ [options_buttons_12r1c2] ever clicked
+
+options_buttons_12r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_12r2c1] selected
+ [options_buttons_12r2c2] ever clicked
+
+options_buttons_12r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_12r3c1] selected
+ [options_buttons_12r3c2] ever clicked
+
+options_buttons_12r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_12r4c1] selected
+ [options_buttons_12r4c2] ever clicked
+
+share_buttons_12r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_12r1c1] selected
+ [share_buttons_12r1c2] ever clicked
+
+share_buttons_12r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_12r2c1] selected
+ [share_buttons_12r2c2] ever clicked
+
+share_buttons_12r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_12r3c1] selected
+ [share_buttons_12r3c2] ever clicked
+
+share_buttons_12r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_12r4c1] selected
+ [share_buttons_12r4c2] ever clicked
+
+share_buttons_12r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_12r5c1] selected
+ [share_buttons_12r5c2] ever clicked
+
+emoji_buttons_12r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_12r1c1] selected
+ [emoji_buttons_12r1c2] ever clicked
+
+emoji_buttons_12r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_12r2c1] selected
+ [emoji_buttons_12r2c2] ever clicked
+
+emoji_buttons_12r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_12r3c1] selected
+ [emoji_buttons_12r3c2] ever clicked
+
+emoji_buttons_12r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_12r4c1] selected
+ [emoji_buttons_12r4c2] ever clicked
+
+emoji_buttons_12r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_12r5c1] selected
+ [emoji_buttons_12r5c2] ever clicked
+
+emoji_buttons_12r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_12r6c1] selected
+ [emoji_buttons_12r6c2] ever clicked
+
+emoji_buttons_12r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_12r7c1] selected
+ [emoji_buttons_12r7c2] ever clicked
+
+report_buttons_12r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_12r1c1] selected
+ [report_buttons_12r1c2] ever clicked
+
+report_buttons_12r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_12r2c1] selected
+ [report_buttons_12r2c2] ever clicked
+
+report_buttons_12r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_12r3c1] selected
+ [report_buttons_12r3c2] ever clicked
+
+report_buttons_12r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_12r4c1] selected
+ [report_buttons_12r4c2] ever clicked
+
+report_buttons_12r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_12r5c1] selected
+ [report_buttons_12r5c2] ever clicked
+
+report_buttons_12r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_12r6c1] selected
+ [report_buttons_12r6c2] ever clicked
+
+report_buttons_12r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_12r7c1] selected
+ [report_buttons_12r7c2] ever clicked
+
+report_buttons_12r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_12r8c1] selected
+ [report_buttons_12r8c2] ever clicked
+
+report_buttons_12r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_12r9c1] selected
+ [report_buttons_12r9c2] ever clicked
+
+report_buttons_12r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_12r10c1] selected
+ [report_buttons_12r10c2] ever clicked
+
+report_buttons_12r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_12r11c1] selected
+ [report_buttons_12r11c2] ever clicked
+
+blurred_buttons_12: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_12r1c2] See why
+ [blurred_buttons_12r2c2] See post
+
+timers_12: hidden
+Values: 0-99999999
+ [timers_12r1] See post clicked (if blurred screen) /in seconds/
+ [timers_12r2] First interatction with post /in seconds/
+ [timers_12r3] Video length watched /in seconds/
+
+OEs_12: hidden
+Open text response
+ [OEs_12r1] Comment OE
+ [OEs_12r2] Report OE
+
+options_button_13: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_13r1c2] ever clicked
+
+lcs_buttons_13r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_13r1c1] selected
+ [lcs_buttons_13r1c2] ever clicked
+
+lcs_buttons_13r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_13r2c1] selected
+ [lcs_buttons_13r2c2] ever clicked
+
+lcs_buttons_13r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_13r3c1] selected
+ [lcs_buttons_13r3c2] ever clicked
+
+options_buttons_13r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_13r1c1] selected
+ [options_buttons_13r1c2] ever clicked
+
+options_buttons_13r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_13r2c1] selected
+ [options_buttons_13r2c2] ever clicked
+
+options_buttons_13r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_13r3c1] selected
+ [options_buttons_13r3c2] ever clicked
+
+options_buttons_13r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_13r4c1] selected
+ [options_buttons_13r4c2] ever clicked
+
+share_buttons_13r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_13r1c1] selected
+ [share_buttons_13r1c2] ever clicked
+
+share_buttons_13r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_13r2c1] selected
+ [share_buttons_13r2c2] ever clicked
+
+share_buttons_13r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_13r3c1] selected
+ [share_buttons_13r3c2] ever clicked
+
+share_buttons_13r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_13r4c1] selected
+ [share_buttons_13r4c2] ever clicked
+
+share_buttons_13r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_13r5c1] selected
+ [share_buttons_13r5c2] ever clicked
+
+emoji_buttons_13r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_13r1c1] selected
+ [emoji_buttons_13r1c2] ever clicked
+
+emoji_buttons_13r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_13r2c1] selected
+ [emoji_buttons_13r2c2] ever clicked
+
+emoji_buttons_13r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_13r3c1] selected
+ [emoji_buttons_13r3c2] ever clicked
+
+emoji_buttons_13r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_13r4c1] selected
+ [emoji_buttons_13r4c2] ever clicked
+
+emoji_buttons_13r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_13r5c1] selected
+ [emoji_buttons_13r5c2] ever clicked
+
+emoji_buttons_13r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_13r6c1] selected
+ [emoji_buttons_13r6c2] ever clicked
+
+emoji_buttons_13r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_13r7c1] selected
+ [emoji_buttons_13r7c2] ever clicked
+
+report_buttons_13r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_13r1c1] selected
+ [report_buttons_13r1c2] ever clicked
+
+report_buttons_13r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_13r2c1] selected
+ [report_buttons_13r2c2] ever clicked
+
+report_buttons_13r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_13r3c1] selected
+ [report_buttons_13r3c2] ever clicked
+
+report_buttons_13r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_13r4c1] selected
+ [report_buttons_13r4c2] ever clicked
+
+report_buttons_13r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_13r5c1] selected
+ [report_buttons_13r5c2] ever clicked
+
+report_buttons_13r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_13r6c1] selected
+ [report_buttons_13r6c2] ever clicked
+
+report_buttons_13r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_13r7c1] selected
+ [report_buttons_13r7c2] ever clicked
+
+report_buttons_13r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_13r8c1] selected
+ [report_buttons_13r8c2] ever clicked
+
+report_buttons_13r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_13r9c1] selected
+ [report_buttons_13r9c2] ever clicked
+
+report_buttons_13r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_13r10c1] selected
+ [report_buttons_13r10c2] ever clicked
+
+report_buttons_13r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_13r11c1] selected
+ [report_buttons_13r11c2] ever clicked
+
+blurred_buttons_13: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_13r1c2] See why
+ [blurred_buttons_13r2c2] See post
+
+timers_13: hidden
+Values: 0-99999999
+ [timers_13r1] See post clicked (if blurred screen) /in seconds/
+ [timers_13r2] First interatction with post /in seconds/
+ [timers_13r3] Video length watched /in seconds/
+
+OEs_13: hidden
+Open text response
+ [OEs_13r1] Comment OE
+ [OEs_13r2] Report OE
+
+options_button_14: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_14r1c2] ever clicked
+
+lcs_buttons_14r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_14r1c1] selected
+ [lcs_buttons_14r1c2] ever clicked
+
+lcs_buttons_14r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_14r2c1] selected
+ [lcs_buttons_14r2c2] ever clicked
+
+lcs_buttons_14r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_14r3c1] selected
+ [lcs_buttons_14r3c2] ever clicked
+
+options_buttons_14r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_14r1c1] selected
+ [options_buttons_14r1c2] ever clicked
+
+options_buttons_14r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_14r2c1] selected
+ [options_buttons_14r2c2] ever clicked
+
+options_buttons_14r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_14r3c1] selected
+ [options_buttons_14r3c2] ever clicked
+
+options_buttons_14r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_14r4c1] selected
+ [options_buttons_14r4c2] ever clicked
+
+share_buttons_14r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_14r1c1] selected
+ [share_buttons_14r1c2] ever clicked
+
+share_buttons_14r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_14r2c1] selected
+ [share_buttons_14r2c2] ever clicked
+
+share_buttons_14r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_14r3c1] selected
+ [share_buttons_14r3c2] ever clicked
+
+share_buttons_14r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_14r4c1] selected
+ [share_buttons_14r4c2] ever clicked
+
+share_buttons_14r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_14r5c1] selected
+ [share_buttons_14r5c2] ever clicked
+
+emoji_buttons_14r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_14r1c1] selected
+ [emoji_buttons_14r1c2] ever clicked
+
+emoji_buttons_14r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_14r2c1] selected
+ [emoji_buttons_14r2c2] ever clicked
+
+emoji_buttons_14r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_14r3c1] selected
+ [emoji_buttons_14r3c2] ever clicked
+
+emoji_buttons_14r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_14r4c1] selected
+ [emoji_buttons_14r4c2] ever clicked
+
+emoji_buttons_14r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_14r5c1] selected
+ [emoji_buttons_14r5c2] ever clicked
+
+emoji_buttons_14r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_14r6c1] selected
+ [emoji_buttons_14r6c2] ever clicked
+
+emoji_buttons_14r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_14r7c1] selected
+ [emoji_buttons_14r7c2] ever clicked
+
+report_buttons_14r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_14r1c1] selected
+ [report_buttons_14r1c2] ever clicked
+
+report_buttons_14r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_14r2c1] selected
+ [report_buttons_14r2c2] ever clicked
+
+report_buttons_14r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_14r3c1] selected
+ [report_buttons_14r3c2] ever clicked
+
+report_buttons_14r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_14r4c1] selected
+ [report_buttons_14r4c2] ever clicked
+
+report_buttons_14r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_14r5c1] selected
+ [report_buttons_14r5c2] ever clicked
+
+report_buttons_14r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_14r6c1] selected
+ [report_buttons_14r6c2] ever clicked
+
+report_buttons_14r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_14r7c1] selected
+ [report_buttons_14r7c2] ever clicked
+
+report_buttons_14r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_14r8c1] selected
+ [report_buttons_14r8c2] ever clicked
+
+report_buttons_14r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_14r9c1] selected
+ [report_buttons_14r9c2] ever clicked
+
+report_buttons_14r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_14r10c1] selected
+ [report_buttons_14r10c2] ever clicked
+
+report_buttons_14r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_14r11c1] selected
+ [report_buttons_14r11c2] ever clicked
+
+blurred_buttons_14: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_14r1c2] See why
+ [blurred_buttons_14r2c2] See post
+
+timers_14: hidden
+Values: 0-99999999
+ [timers_14r1] See post clicked (if blurred screen) /in seconds/
+ [timers_14r2] First interatction with post /in seconds/
+ [timers_14r3] Video length watched /in seconds/
+
+OEs_14: hidden
+Open text response
+ [OEs_14r1] Comment OE
+ [OEs_14r2] Report OE
+
+options_button_15: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_15r1c2] ever clicked
+
+lcs_buttons_15r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_15r1c1] selected
+ [lcs_buttons_15r1c2] ever clicked
+
+lcs_buttons_15r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_15r2c1] selected
+ [lcs_buttons_15r2c2] ever clicked
+
+lcs_buttons_15r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_15r3c1] selected
+ [lcs_buttons_15r3c2] ever clicked
+
+options_buttons_15r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_15r1c1] selected
+ [options_buttons_15r1c2] ever clicked
+
+options_buttons_15r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_15r2c1] selected
+ [options_buttons_15r2c2] ever clicked
+
+options_buttons_15r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_15r3c1] selected
+ [options_buttons_15r3c2] ever clicked
+
+options_buttons_15r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_15r4c1] selected
+ [options_buttons_15r4c2] ever clicked
+
+share_buttons_15r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_15r1c1] selected
+ [share_buttons_15r1c2] ever clicked
+
+share_buttons_15r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_15r2c1] selected
+ [share_buttons_15r2c2] ever clicked
+
+share_buttons_15r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_15r3c1] selected
+ [share_buttons_15r3c2] ever clicked
+
+share_buttons_15r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_15r4c1] selected
+ [share_buttons_15r4c2] ever clicked
+
+share_buttons_15r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_15r5c1] selected
+ [share_buttons_15r5c2] ever clicked
+
+emoji_buttons_15r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_15r1c1] selected
+ [emoji_buttons_15r1c2] ever clicked
+
+emoji_buttons_15r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_15r2c1] selected
+ [emoji_buttons_15r2c2] ever clicked
+
+emoji_buttons_15r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_15r3c1] selected
+ [emoji_buttons_15r3c2] ever clicked
+
+emoji_buttons_15r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_15r4c1] selected
+ [emoji_buttons_15r4c2] ever clicked
+
+emoji_buttons_15r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_15r5c1] selected
+ [emoji_buttons_15r5c2] ever clicked
+
+emoji_buttons_15r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_15r6c1] selected
+ [emoji_buttons_15r6c2] ever clicked
+
+emoji_buttons_15r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_15r7c1] selected
+ [emoji_buttons_15r7c2] ever clicked
+
+report_buttons_15r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_15r1c1] selected
+ [report_buttons_15r1c2] ever clicked
+
+report_buttons_15r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_15r2c1] selected
+ [report_buttons_15r2c2] ever clicked
+
+report_buttons_15r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_15r3c1] selected
+ [report_buttons_15r3c2] ever clicked
+
+report_buttons_15r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_15r4c1] selected
+ [report_buttons_15r4c2] ever clicked
+
+report_buttons_15r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_15r5c1] selected
+ [report_buttons_15r5c2] ever clicked
+
+report_buttons_15r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_15r6c1] selected
+ [report_buttons_15r6c2] ever clicked
+
+report_buttons_15r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_15r7c1] selected
+ [report_buttons_15r7c2] ever clicked
+
+report_buttons_15r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_15r8c1] selected
+ [report_buttons_15r8c2] ever clicked
+
+report_buttons_15r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_15r9c1] selected
+ [report_buttons_15r9c2] ever clicked
+
+report_buttons_15r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_15r10c1] selected
+ [report_buttons_15r10c2] ever clicked
+
+report_buttons_15r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_15r11c1] selected
+ [report_buttons_15r11c2] ever clicked
+
+blurred_buttons_15: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_15r1c2] See why
+ [blurred_buttons_15r2c2] See post
+
+timers_15: hidden
+Values: 0-99999999
+ [timers_15r1] See post clicked (if blurred screen) /in seconds/
+ [timers_15r2] First interatction with post /in seconds/
+ [timers_15r3] Video length watched /in seconds/
+
+OEs_15: hidden
+Open text response
+ [OEs_15r1] Comment OE
+ [OEs_15r2] Report OE
+
+options_button_16: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_16r1c2] ever clicked
+
+lcs_buttons_16r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_16r1c1] selected
+ [lcs_buttons_16r1c2] ever clicked
+
+lcs_buttons_16r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_16r2c1] selected
+ [lcs_buttons_16r2c2] ever clicked
+
+lcs_buttons_16r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_16r3c1] selected
+ [lcs_buttons_16r3c2] ever clicked
+
+options_buttons_16r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_16r1c1] selected
+ [options_buttons_16r1c2] ever clicked
+
+options_buttons_16r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_16r2c1] selected
+ [options_buttons_16r2c2] ever clicked
+
+options_buttons_16r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_16r3c1] selected
+ [options_buttons_16r3c2] ever clicked
+
+options_buttons_16r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_16r4c1] selected
+ [options_buttons_16r4c2] ever clicked
+
+share_buttons_16r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_16r1c1] selected
+ [share_buttons_16r1c2] ever clicked
+
+share_buttons_16r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_16r2c1] selected
+ [share_buttons_16r2c2] ever clicked
+
+share_buttons_16r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_16r3c1] selected
+ [share_buttons_16r3c2] ever clicked
+
+share_buttons_16r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_16r4c1] selected
+ [share_buttons_16r4c2] ever clicked
+
+share_buttons_16r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_16r5c1] selected
+ [share_buttons_16r5c2] ever clicked
+
+emoji_buttons_16r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_16r1c1] selected
+ [emoji_buttons_16r1c2] ever clicked
+
+emoji_buttons_16r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_16r2c1] selected
+ [emoji_buttons_16r2c2] ever clicked
+
+emoji_buttons_16r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_16r3c1] selected
+ [emoji_buttons_16r3c2] ever clicked
+
+emoji_buttons_16r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_16r4c1] selected
+ [emoji_buttons_16r4c2] ever clicked
+
+emoji_buttons_16r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_16r5c1] selected
+ [emoji_buttons_16r5c2] ever clicked
+
+emoji_buttons_16r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_16r6c1] selected
+ [emoji_buttons_16r6c2] ever clicked
+
+emoji_buttons_16r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_16r7c1] selected
+ [emoji_buttons_16r7c2] ever clicked
+
+report_buttons_16r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_16r1c1] selected
+ [report_buttons_16r1c2] ever clicked
+
+report_buttons_16r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_16r2c1] selected
+ [report_buttons_16r2c2] ever clicked
+
+report_buttons_16r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_16r3c1] selected
+ [report_buttons_16r3c2] ever clicked
+
+report_buttons_16r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_16r4c1] selected
+ [report_buttons_16r4c2] ever clicked
+
+report_buttons_16r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_16r5c1] selected
+ [report_buttons_16r5c2] ever clicked
+
+report_buttons_16r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_16r6c1] selected
+ [report_buttons_16r6c2] ever clicked
+
+report_buttons_16r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_16r7c1] selected
+ [report_buttons_16r7c2] ever clicked
+
+report_buttons_16r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_16r8c1] selected
+ [report_buttons_16r8c2] ever clicked
+
+report_buttons_16r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_16r9c1] selected
+ [report_buttons_16r9c2] ever clicked
+
+report_buttons_16r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_16r10c1] selected
+ [report_buttons_16r10c2] ever clicked
+
+report_buttons_16r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_16r11c1] selected
+ [report_buttons_16r11c2] ever clicked
+
+blurred_buttons_16: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_16r1c2] See why
+ [blurred_buttons_16r2c2] See post
+
+timers_16: hidden
+Values: 0-99999999
+ [timers_16r1] See post clicked (if blurred screen) /in seconds/
+ [timers_16r2] First interatction with post /in seconds/
+ [timers_16r3] Video length watched /in seconds/
+
+OEs_16: hidden
+Open text response
+ [OEs_16r1] Comment OE
+ [OEs_16r2] Report OE
+
+options_button_17: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_17r1c2] ever clicked
+
+lcs_buttons_17r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_17r1c1] selected
+ [lcs_buttons_17r1c2] ever clicked
+
+lcs_buttons_17r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_17r2c1] selected
+ [lcs_buttons_17r2c2] ever clicked
+
+lcs_buttons_17r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_17r3c1] selected
+ [lcs_buttons_17r3c2] ever clicked
+
+options_buttons_17r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_17r1c1] selected
+ [options_buttons_17r1c2] ever clicked
+
+options_buttons_17r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_17r2c1] selected
+ [options_buttons_17r2c2] ever clicked
+
+options_buttons_17r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_17r3c1] selected
+ [options_buttons_17r3c2] ever clicked
+
+options_buttons_17r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_17r4c1] selected
+ [options_buttons_17r4c2] ever clicked
+
+share_buttons_17r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_17r1c1] selected
+ [share_buttons_17r1c2] ever clicked
+
+share_buttons_17r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_17r2c1] selected
+ [share_buttons_17r2c2] ever clicked
+
+share_buttons_17r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_17r3c1] selected
+ [share_buttons_17r3c2] ever clicked
+
+share_buttons_17r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_17r4c1] selected
+ [share_buttons_17r4c2] ever clicked
+
+share_buttons_17r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_17r5c1] selected
+ [share_buttons_17r5c2] ever clicked
+
+emoji_buttons_17r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_17r1c1] selected
+ [emoji_buttons_17r1c2] ever clicked
+
+emoji_buttons_17r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_17r2c1] selected
+ [emoji_buttons_17r2c2] ever clicked
+
+emoji_buttons_17r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_17r3c1] selected
+ [emoji_buttons_17r3c2] ever clicked
+
+emoji_buttons_17r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_17r4c1] selected
+ [emoji_buttons_17r4c2] ever clicked
+
+emoji_buttons_17r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_17r5c1] selected
+ [emoji_buttons_17r5c2] ever clicked
+
+emoji_buttons_17r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_17r6c1] selected
+ [emoji_buttons_17r6c2] ever clicked
+
+emoji_buttons_17r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_17r7c1] selected
+ [emoji_buttons_17r7c2] ever clicked
+
+report_buttons_17r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_17r1c1] selected
+ [report_buttons_17r1c2] ever clicked
+
+report_buttons_17r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_17r2c1] selected
+ [report_buttons_17r2c2] ever clicked
+
+report_buttons_17r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_17r3c1] selected
+ [report_buttons_17r3c2] ever clicked
+
+report_buttons_17r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_17r4c1] selected
+ [report_buttons_17r4c2] ever clicked
+
+report_buttons_17r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_17r5c1] selected
+ [report_buttons_17r5c2] ever clicked
+
+report_buttons_17r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_17r6c1] selected
+ [report_buttons_17r6c2] ever clicked
+
+report_buttons_17r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_17r7c1] selected
+ [report_buttons_17r7c2] ever clicked
+
+report_buttons_17r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_17r8c1] selected
+ [report_buttons_17r8c2] ever clicked
+
+report_buttons_17r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_17r9c1] selected
+ [report_buttons_17r9c2] ever clicked
+
+report_buttons_17r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_17r10c1] selected
+ [report_buttons_17r10c2] ever clicked
+
+report_buttons_17r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_17r11c1] selected
+ [report_buttons_17r11c2] ever clicked
+
+blurred_buttons_17: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_17r1c2] See why
+ [blurred_buttons_17r2c2] See post
+
+timers_17: hidden
+Values: 0-99999999
+ [timers_17r1] See post clicked (if blurred screen) /in seconds/
+ [timers_17r2] First interatction with post /in seconds/
+ [timers_17r3] Video length watched /in seconds/
+
+OEs_17: hidden
+Open text response
+ [OEs_17r1] Comment OE
+ [OEs_17r2] Report OE
+
+options_button_18: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_18r1c2] ever clicked
+
+lcs_buttons_18r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_18r1c1] selected
+ [lcs_buttons_18r1c2] ever clicked
+
+lcs_buttons_18r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_18r2c1] selected
+ [lcs_buttons_18r2c2] ever clicked
+
+lcs_buttons_18r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_18r3c1] selected
+ [lcs_buttons_18r3c2] ever clicked
+
+options_buttons_18r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_18r1c1] selected
+ [options_buttons_18r1c2] ever clicked
+
+options_buttons_18r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_18r2c1] selected
+ [options_buttons_18r2c2] ever clicked
+
+options_buttons_18r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_18r3c1] selected
+ [options_buttons_18r3c2] ever clicked
+
+options_buttons_18r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_18r4c1] selected
+ [options_buttons_18r4c2] ever clicked
+
+share_buttons_18r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_18r1c1] selected
+ [share_buttons_18r1c2] ever clicked
+
+share_buttons_18r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_18r2c1] selected
+ [share_buttons_18r2c2] ever clicked
+
+share_buttons_18r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_18r3c1] selected
+ [share_buttons_18r3c2] ever clicked
+
+share_buttons_18r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_18r4c1] selected
+ [share_buttons_18r4c2] ever clicked
+
+share_buttons_18r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_18r5c1] selected
+ [share_buttons_18r5c2] ever clicked
+
+emoji_buttons_18r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_18r1c1] selected
+ [emoji_buttons_18r1c2] ever clicked
+
+emoji_buttons_18r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_18r2c1] selected
+ [emoji_buttons_18r2c2] ever clicked
+
+emoji_buttons_18r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_18r3c1] selected
+ [emoji_buttons_18r3c2] ever clicked
+
+emoji_buttons_18r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_18r4c1] selected
+ [emoji_buttons_18r4c2] ever clicked
+
+emoji_buttons_18r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_18r5c1] selected
+ [emoji_buttons_18r5c2] ever clicked
+
+emoji_buttons_18r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_18r6c1] selected
+ [emoji_buttons_18r6c2] ever clicked
+
+emoji_buttons_18r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_18r7c1] selected
+ [emoji_buttons_18r7c2] ever clicked
+
+report_buttons_18r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_18r1c1] selected
+ [report_buttons_18r1c2] ever clicked
+
+report_buttons_18r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_18r2c1] selected
+ [report_buttons_18r2c2] ever clicked
+
+report_buttons_18r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_18r3c1] selected
+ [report_buttons_18r3c2] ever clicked
+
+report_buttons_18r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_18r4c1] selected
+ [report_buttons_18r4c2] ever clicked
+
+report_buttons_18r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_18r5c1] selected
+ [report_buttons_18r5c2] ever clicked
+
+report_buttons_18r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_18r6c1] selected
+ [report_buttons_18r6c2] ever clicked
+
+report_buttons_18r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_18r7c1] selected
+ [report_buttons_18r7c2] ever clicked
+
+report_buttons_18r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_18r8c1] selected
+ [report_buttons_18r8c2] ever clicked
+
+report_buttons_18r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_18r9c1] selected
+ [report_buttons_18r9c2] ever clicked
+
+report_buttons_18r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_18r10c1] selected
+ [report_buttons_18r10c2] ever clicked
+
+report_buttons_18r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_18r11c1] selected
+ [report_buttons_18r11c2] ever clicked
+
+blurred_buttons_18: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_18r1c2] See why
+ [blurred_buttons_18r2c2] See post
+
+timers_18: hidden
+Values: 0-99999999
+ [timers_18r1] See post clicked (if blurred screen) /in seconds/
+ [timers_18r2] First interatction with post /in seconds/
+ [timers_18r3] Video length watched /in seconds/
+
+OEs_18: hidden
+Open text response
+ [OEs_18r1] Comment OE
+ [OEs_18r2] Report OE
+
+options_button_19: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_19r1c2] ever clicked
+
+lcs_buttons_19r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_19r1c1] selected
+ [lcs_buttons_19r1c2] ever clicked
+
+lcs_buttons_19r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_19r2c1] selected
+ [lcs_buttons_19r2c2] ever clicked
+
+lcs_buttons_19r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_19r3c1] selected
+ [lcs_buttons_19r3c2] ever clicked
+
+options_buttons_19r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_19r1c1] selected
+ [options_buttons_19r1c2] ever clicked
+
+options_buttons_19r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_19r2c1] selected
+ [options_buttons_19r2c2] ever clicked
+
+options_buttons_19r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_19r3c1] selected
+ [options_buttons_19r3c2] ever clicked
+
+options_buttons_19r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_19r4c1] selected
+ [options_buttons_19r4c2] ever clicked
+
+share_buttons_19r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_19r1c1] selected
+ [share_buttons_19r1c2] ever clicked
+
+share_buttons_19r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_19r2c1] selected
+ [share_buttons_19r2c2] ever clicked
+
+share_buttons_19r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_19r3c1] selected
+ [share_buttons_19r3c2] ever clicked
+
+share_buttons_19r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_19r4c1] selected
+ [share_buttons_19r4c2] ever clicked
+
+share_buttons_19r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_19r5c1] selected
+ [share_buttons_19r5c2] ever clicked
+
+emoji_buttons_19r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_19r1c1] selected
+ [emoji_buttons_19r1c2] ever clicked
+
+emoji_buttons_19r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_19r2c1] selected
+ [emoji_buttons_19r2c2] ever clicked
+
+emoji_buttons_19r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_19r3c1] selected
+ [emoji_buttons_19r3c2] ever clicked
+
+emoji_buttons_19r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_19r4c1] selected
+ [emoji_buttons_19r4c2] ever clicked
+
+emoji_buttons_19r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_19r5c1] selected
+ [emoji_buttons_19r5c2] ever clicked
+
+emoji_buttons_19r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_19r6c1] selected
+ [emoji_buttons_19r6c2] ever clicked
+
+emoji_buttons_19r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_19r7c1] selected
+ [emoji_buttons_19r7c2] ever clicked
+
+report_buttons_19r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_19r1c1] selected
+ [report_buttons_19r1c2] ever clicked
+
+report_buttons_19r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_19r2c1] selected
+ [report_buttons_19r2c2] ever clicked
+
+report_buttons_19r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_19r3c1] selected
+ [report_buttons_19r3c2] ever clicked
+
+report_buttons_19r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_19r4c1] selected
+ [report_buttons_19r4c2] ever clicked
+
+report_buttons_19r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_19r5c1] selected
+ [report_buttons_19r5c2] ever clicked
+
+report_buttons_19r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_19r6c1] selected
+ [report_buttons_19r6c2] ever clicked
+
+report_buttons_19r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_19r7c1] selected
+ [report_buttons_19r7c2] ever clicked
+
+report_buttons_19r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_19r8c1] selected
+ [report_buttons_19r8c2] ever clicked
+
+report_buttons_19r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_19r9c1] selected
+ [report_buttons_19r9c2] ever clicked
+
+report_buttons_19r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_19r10c1] selected
+ [report_buttons_19r10c2] ever clicked
+
+report_buttons_19r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_19r11c1] selected
+ [report_buttons_19r11c2] ever clicked
+
+blurred_buttons_19: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_19r1c2] See why
+ [blurred_buttons_19r2c2] See post
+
+timers_19: hidden
+Values: 0-99999999
+ [timers_19r1] See post clicked (if blurred screen) /in seconds/
+ [timers_19r2] First interatction with post /in seconds/
+ [timers_19r3] Video length watched /in seconds/
+
+OEs_19: hidden
+Open text response
+ [OEs_19r1] Comment OE
+ [OEs_19r2] Report OE
+
+options_button_20: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_20r1c2] ever clicked
+
+lcs_buttons_20r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_20r1c1] selected
+ [lcs_buttons_20r1c2] ever clicked
+
+lcs_buttons_20r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_20r2c1] selected
+ [lcs_buttons_20r2c2] ever clicked
+
+lcs_buttons_20r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_20r3c1] selected
+ [lcs_buttons_20r3c2] ever clicked
+
+options_buttons_20r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_20r1c1] selected
+ [options_buttons_20r1c2] ever clicked
+
+options_buttons_20r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_20r2c1] selected
+ [options_buttons_20r2c2] ever clicked
+
+options_buttons_20r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_20r3c1] selected
+ [options_buttons_20r3c2] ever clicked
+
+options_buttons_20r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_20r4c1] selected
+ [options_buttons_20r4c2] ever clicked
+
+share_buttons_20r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_20r1c1] selected
+ [share_buttons_20r1c2] ever clicked
+
+share_buttons_20r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_20r2c1] selected
+ [share_buttons_20r2c2] ever clicked
+
+share_buttons_20r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_20r3c1] selected
+ [share_buttons_20r3c2] ever clicked
+
+share_buttons_20r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_20r4c1] selected
+ [share_buttons_20r4c2] ever clicked
+
+share_buttons_20r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_20r5c1] selected
+ [share_buttons_20r5c2] ever clicked
+
+emoji_buttons_20r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_20r1c1] selected
+ [emoji_buttons_20r1c2] ever clicked
+
+emoji_buttons_20r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_20r2c1] selected
+ [emoji_buttons_20r2c2] ever clicked
+
+emoji_buttons_20r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_20r3c1] selected
+ [emoji_buttons_20r3c2] ever clicked
+
+emoji_buttons_20r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_20r4c1] selected
+ [emoji_buttons_20r4c2] ever clicked
+
+emoji_buttons_20r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_20r5c1] selected
+ [emoji_buttons_20r5c2] ever clicked
+
+emoji_buttons_20r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_20r6c1] selected
+ [emoji_buttons_20r6c2] ever clicked
+
+emoji_buttons_20r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_20r7c1] selected
+ [emoji_buttons_20r7c2] ever clicked
+
+report_buttons_20r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_20r1c1] selected
+ [report_buttons_20r1c2] ever clicked
+
+report_buttons_20r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_20r2c1] selected
+ [report_buttons_20r2c2] ever clicked
+
+report_buttons_20r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_20r3c1] selected
+ [report_buttons_20r3c2] ever clicked
+
+report_buttons_20r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_20r4c1] selected
+ [report_buttons_20r4c2] ever clicked
+
+report_buttons_20r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_20r5c1] selected
+ [report_buttons_20r5c2] ever clicked
+
+report_buttons_20r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_20r6c1] selected
+ [report_buttons_20r6c2] ever clicked
+
+report_buttons_20r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_20r7c1] selected
+ [report_buttons_20r7c2] ever clicked
+
+report_buttons_20r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_20r8c1] selected
+ [report_buttons_20r8c2] ever clicked
+
+report_buttons_20r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_20r9c1] selected
+ [report_buttons_20r9c2] ever clicked
+
+report_buttons_20r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_20r10c1] selected
+ [report_buttons_20r10c2] ever clicked
+
+report_buttons_20r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_20r11c1] selected
+ [report_buttons_20r11c2] ever clicked
+
+blurred_buttons_20: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_20r1c2] See why
+ [blurred_buttons_20r2c2] See post
+
+timers_20: hidden
+Values: 0-99999999
+ [timers_20r1] See post clicked (if blurred screen) /in seconds/
+ [timers_20r2] First interatction with post /in seconds/
+ [timers_20r3] Video length watched /in seconds/
+
+OEs_20: hidden
+Open text response
+ [OEs_20r1] Comment OE
+ [OEs_20r2] Report OE
+
+options_button_21: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_21r1c2] ever clicked
+
+lcs_buttons_21r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_21r1c1] selected
+ [lcs_buttons_21r1c2] ever clicked
+
+lcs_buttons_21r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_21r2c1] selected
+ [lcs_buttons_21r2c2] ever clicked
+
+lcs_buttons_21r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_21r3c1] selected
+ [lcs_buttons_21r3c2] ever clicked
+
+options_buttons_21r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_21r1c1] selected
+ [options_buttons_21r1c2] ever clicked
+
+options_buttons_21r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_21r2c1] selected
+ [options_buttons_21r2c2] ever clicked
+
+options_buttons_21r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_21r3c1] selected
+ [options_buttons_21r3c2] ever clicked
+
+options_buttons_21r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_21r4c1] selected
+ [options_buttons_21r4c2] ever clicked
+
+share_buttons_21r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_21r1c1] selected
+ [share_buttons_21r1c2] ever clicked
+
+share_buttons_21r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_21r2c1] selected
+ [share_buttons_21r2c2] ever clicked
+
+share_buttons_21r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_21r3c1] selected
+ [share_buttons_21r3c2] ever clicked
+
+share_buttons_21r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_21r4c1] selected
+ [share_buttons_21r4c2] ever clicked
+
+share_buttons_21r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_21r5c1] selected
+ [share_buttons_21r5c2] ever clicked
+
+emoji_buttons_21r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_21r1c1] selected
+ [emoji_buttons_21r1c2] ever clicked
+
+emoji_buttons_21r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_21r2c1] selected
+ [emoji_buttons_21r2c2] ever clicked
+
+emoji_buttons_21r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_21r3c1] selected
+ [emoji_buttons_21r3c2] ever clicked
+
+emoji_buttons_21r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_21r4c1] selected
+ [emoji_buttons_21r4c2] ever clicked
+
+emoji_buttons_21r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_21r5c1] selected
+ [emoji_buttons_21r5c2] ever clicked
+
+emoji_buttons_21r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_21r6c1] selected
+ [emoji_buttons_21r6c2] ever clicked
+
+emoji_buttons_21r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_21r7c1] selected
+ [emoji_buttons_21r7c2] ever clicked
+
+report_buttons_21r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_21r1c1] selected
+ [report_buttons_21r1c2] ever clicked
+
+report_buttons_21r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_21r2c1] selected
+ [report_buttons_21r2c2] ever clicked
+
+report_buttons_21r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_21r3c1] selected
+ [report_buttons_21r3c2] ever clicked
+
+report_buttons_21r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_21r4c1] selected
+ [report_buttons_21r4c2] ever clicked
+
+report_buttons_21r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_21r5c1] selected
+ [report_buttons_21r5c2] ever clicked
+
+report_buttons_21r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_21r6c1] selected
+ [report_buttons_21r6c2] ever clicked
+
+report_buttons_21r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_21r7c1] selected
+ [report_buttons_21r7c2] ever clicked
+
+report_buttons_21r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_21r8c1] selected
+ [report_buttons_21r8c2] ever clicked
+
+report_buttons_21r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_21r9c1] selected
+ [report_buttons_21r9c2] ever clicked
+
+report_buttons_21r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_21r10c1] selected
+ [report_buttons_21r10c2] ever clicked
+
+report_buttons_21r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_21r11c1] selected
+ [report_buttons_21r11c2] ever clicked
+
+blurred_buttons_21: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_21r1c2] See why
+ [blurred_buttons_21r2c2] See post
+
+timers_21: hidden
+Values: 0-99999999
+ [timers_21r1] See post clicked (if blurred screen) /in seconds/
+ [timers_21r2] First interatction with post /in seconds/
+ [timers_21r3] Video length watched /in seconds/
+
+OEs_21: hidden
+Open text response
+ [OEs_21r1] Comment OE
+ [OEs_21r2] Report OE
+
+options_button_22: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_22r1c2] ever clicked
+
+lcs_buttons_22r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_22r1c1] selected
+ [lcs_buttons_22r1c2] ever clicked
+
+lcs_buttons_22r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_22r2c1] selected
+ [lcs_buttons_22r2c2] ever clicked
+
+lcs_buttons_22r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_22r3c1] selected
+ [lcs_buttons_22r3c2] ever clicked
+
+options_buttons_22r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_22r1c1] selected
+ [options_buttons_22r1c2] ever clicked
+
+options_buttons_22r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_22r2c1] selected
+ [options_buttons_22r2c2] ever clicked
+
+options_buttons_22r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_22r3c1] selected
+ [options_buttons_22r3c2] ever clicked
+
+options_buttons_22r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_22r4c1] selected
+ [options_buttons_22r4c2] ever clicked
+
+share_buttons_22r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_22r1c1] selected
+ [share_buttons_22r1c2] ever clicked
+
+share_buttons_22r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_22r2c1] selected
+ [share_buttons_22r2c2] ever clicked
+
+share_buttons_22r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_22r3c1] selected
+ [share_buttons_22r3c2] ever clicked
+
+share_buttons_22r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_22r4c1] selected
+ [share_buttons_22r4c2] ever clicked
+
+share_buttons_22r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_22r5c1] selected
+ [share_buttons_22r5c2] ever clicked
+
+emoji_buttons_22r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_22r1c1] selected
+ [emoji_buttons_22r1c2] ever clicked
+
+emoji_buttons_22r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_22r2c1] selected
+ [emoji_buttons_22r2c2] ever clicked
+
+emoji_buttons_22r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_22r3c1] selected
+ [emoji_buttons_22r3c2] ever clicked
+
+emoji_buttons_22r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_22r4c1] selected
+ [emoji_buttons_22r4c2] ever clicked
+
+emoji_buttons_22r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_22r5c1] selected
+ [emoji_buttons_22r5c2] ever clicked
+
+emoji_buttons_22r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_22r6c1] selected
+ [emoji_buttons_22r6c2] ever clicked
+
+emoji_buttons_22r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_22r7c1] selected
+ [emoji_buttons_22r7c2] ever clicked
+
+report_buttons_22r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_22r1c1] selected
+ [report_buttons_22r1c2] ever clicked
+
+report_buttons_22r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_22r2c1] selected
+ [report_buttons_22r2c2] ever clicked
+
+report_buttons_22r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_22r3c1] selected
+ [report_buttons_22r3c2] ever clicked
+
+report_buttons_22r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_22r4c1] selected
+ [report_buttons_22r4c2] ever clicked
+
+report_buttons_22r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_22r5c1] selected
+ [report_buttons_22r5c2] ever clicked
+
+report_buttons_22r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_22r6c1] selected
+ [report_buttons_22r6c2] ever clicked
+
+report_buttons_22r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_22r7c1] selected
+ [report_buttons_22r7c2] ever clicked
+
+report_buttons_22r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_22r8c1] selected
+ [report_buttons_22r8c2] ever clicked
+
+report_buttons_22r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_22r9c1] selected
+ [report_buttons_22r9c2] ever clicked
+
+report_buttons_22r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_22r10c1] selected
+ [report_buttons_22r10c2] ever clicked
+
+report_buttons_22r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_22r11c1] selected
+ [report_buttons_22r11c2] ever clicked
+
+blurred_buttons_22: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_22r1c2] See why
+ [blurred_buttons_22r2c2] See post
+
+timers_22: hidden
+Values: 0-99999999
+ [timers_22r1] See post clicked (if blurred screen) /in seconds/
+ [timers_22r2] First interatction with post /in seconds/
+ [timers_22r3] Video length watched /in seconds/
+
+OEs_22: hidden
+Open text response
+ [OEs_22r1] Comment OE
+ [OEs_22r2] Report OE
+
+options_button_23: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_23r1c2] ever clicked
+
+lcs_buttons_23r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_23r1c1] selected
+ [lcs_buttons_23r1c2] ever clicked
+
+lcs_buttons_23r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_23r2c1] selected
+ [lcs_buttons_23r2c2] ever clicked
+
+lcs_buttons_23r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_23r3c1] selected
+ [lcs_buttons_23r3c2] ever clicked
+
+options_buttons_23r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_23r1c1] selected
+ [options_buttons_23r1c2] ever clicked
+
+options_buttons_23r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_23r2c1] selected
+ [options_buttons_23r2c2] ever clicked
+
+options_buttons_23r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_23r3c1] selected
+ [options_buttons_23r3c2] ever clicked
+
+options_buttons_23r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_23r4c1] selected
+ [options_buttons_23r4c2] ever clicked
+
+share_buttons_23r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_23r1c1] selected
+ [share_buttons_23r1c2] ever clicked
+
+share_buttons_23r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_23r2c1] selected
+ [share_buttons_23r2c2] ever clicked
+
+share_buttons_23r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_23r3c1] selected
+ [share_buttons_23r3c2] ever clicked
+
+share_buttons_23r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_23r4c1] selected
+ [share_buttons_23r4c2] ever clicked
+
+share_buttons_23r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_23r5c1] selected
+ [share_buttons_23r5c2] ever clicked
+
+emoji_buttons_23r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_23r1c1] selected
+ [emoji_buttons_23r1c2] ever clicked
+
+emoji_buttons_23r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_23r2c1] selected
+ [emoji_buttons_23r2c2] ever clicked
+
+emoji_buttons_23r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_23r3c1] selected
+ [emoji_buttons_23r3c2] ever clicked
+
+emoji_buttons_23r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_23r4c1] selected
+ [emoji_buttons_23r4c2] ever clicked
+
+emoji_buttons_23r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_23r5c1] selected
+ [emoji_buttons_23r5c2] ever clicked
+
+emoji_buttons_23r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_23r6c1] selected
+ [emoji_buttons_23r6c2] ever clicked
+
+emoji_buttons_23r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_23r7c1] selected
+ [emoji_buttons_23r7c2] ever clicked
+
+report_buttons_23r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_23r1c1] selected
+ [report_buttons_23r1c2] ever clicked
+
+report_buttons_23r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_23r2c1] selected
+ [report_buttons_23r2c2] ever clicked
+
+report_buttons_23r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_23r3c1] selected
+ [report_buttons_23r3c2] ever clicked
+
+report_buttons_23r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_23r4c1] selected
+ [report_buttons_23r4c2] ever clicked
+
+report_buttons_23r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_23r5c1] selected
+ [report_buttons_23r5c2] ever clicked
+
+report_buttons_23r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_23r6c1] selected
+ [report_buttons_23r6c2] ever clicked
+
+report_buttons_23r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_23r7c1] selected
+ [report_buttons_23r7c2] ever clicked
+
+report_buttons_23r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_23r8c1] selected
+ [report_buttons_23r8c2] ever clicked
+
+report_buttons_23r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_23r9c1] selected
+ [report_buttons_23r9c2] ever clicked
+
+report_buttons_23r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_23r10c1] selected
+ [report_buttons_23r10c2] ever clicked
+
+report_buttons_23r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_23r11c1] selected
+ [report_buttons_23r11c2] ever clicked
+
+blurred_buttons_23: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_23r1c2] See why
+ [blurred_buttons_23r2c2] See post
+
+timers_23: hidden
+Values: 0-99999999
+ [timers_23r1] See post clicked (if blurred screen) /in seconds/
+ [timers_23r2] First interatction with post /in seconds/
+ [timers_23r3] Video length watched /in seconds/
+
+OEs_23: hidden
+Open text response
+ [OEs_23r1] Comment OE
+ [OEs_23r2] Report OE
+
+options_button_24: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_24r1c2] ever clicked
+
+lcs_buttons_24r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_24r1c1] selected
+ [lcs_buttons_24r1c2] ever clicked
+
+lcs_buttons_24r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_24r2c1] selected
+ [lcs_buttons_24r2c2] ever clicked
+
+lcs_buttons_24r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_24r3c1] selected
+ [lcs_buttons_24r3c2] ever clicked
+
+options_buttons_24r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_24r1c1] selected
+ [options_buttons_24r1c2] ever clicked
+
+options_buttons_24r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_24r2c1] selected
+ [options_buttons_24r2c2] ever clicked
+
+options_buttons_24r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_24r3c1] selected
+ [options_buttons_24r3c2] ever clicked
+
+options_buttons_24r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_24r4c1] selected
+ [options_buttons_24r4c2] ever clicked
+
+share_buttons_24r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_24r1c1] selected
+ [share_buttons_24r1c2] ever clicked
+
+share_buttons_24r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_24r2c1] selected
+ [share_buttons_24r2c2] ever clicked
+
+share_buttons_24r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_24r3c1] selected
+ [share_buttons_24r3c2] ever clicked
+
+share_buttons_24r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_24r4c1] selected
+ [share_buttons_24r4c2] ever clicked
+
+share_buttons_24r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_24r5c1] selected
+ [share_buttons_24r5c2] ever clicked
+
+emoji_buttons_24r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_24r1c1] selected
+ [emoji_buttons_24r1c2] ever clicked
+
+emoji_buttons_24r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_24r2c1] selected
+ [emoji_buttons_24r2c2] ever clicked
+
+emoji_buttons_24r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_24r3c1] selected
+ [emoji_buttons_24r3c2] ever clicked
+
+emoji_buttons_24r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_24r4c1] selected
+ [emoji_buttons_24r4c2] ever clicked
+
+emoji_buttons_24r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_24r5c1] selected
+ [emoji_buttons_24r5c2] ever clicked
+
+emoji_buttons_24r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_24r6c1] selected
+ [emoji_buttons_24r6c2] ever clicked
+
+emoji_buttons_24r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_24r7c1] selected
+ [emoji_buttons_24r7c2] ever clicked
+
+report_buttons_24r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_24r1c1] selected
+ [report_buttons_24r1c2] ever clicked
+
+report_buttons_24r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_24r2c1] selected
+ [report_buttons_24r2c2] ever clicked
+
+report_buttons_24r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_24r3c1] selected
+ [report_buttons_24r3c2] ever clicked
+
+report_buttons_24r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_24r4c1] selected
+ [report_buttons_24r4c2] ever clicked
+
+report_buttons_24r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_24r5c1] selected
+ [report_buttons_24r5c2] ever clicked
+
+report_buttons_24r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_24r6c1] selected
+ [report_buttons_24r6c2] ever clicked
+
+report_buttons_24r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_24r7c1] selected
+ [report_buttons_24r7c2] ever clicked
+
+report_buttons_24r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_24r8c1] selected
+ [report_buttons_24r8c2] ever clicked
+
+report_buttons_24r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_24r9c1] selected
+ [report_buttons_24r9c2] ever clicked
+
+report_buttons_24r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_24r10c1] selected
+ [report_buttons_24r10c2] ever clicked
+
+report_buttons_24r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_24r11c1] selected
+ [report_buttons_24r11c2] ever clicked
+
+blurred_buttons_24: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_24r1c2] See why
+ [blurred_buttons_24r2c2] See post
+
+timers_24: hidden
+Values: 0-99999999
+ [timers_24r1] See post clicked (if blurred screen) /in seconds/
+ [timers_24r2] First interatction with post /in seconds/
+ [timers_24r3] Video length watched /in seconds/
+
+OEs_24: hidden
+Open text response
+ [OEs_24r1] Comment OE
+ [OEs_24r2] Report OE
+
+options_button_25: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_25r1c2] ever clicked
+
+lcs_buttons_25r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_25r1c1] selected
+ [lcs_buttons_25r1c2] ever clicked
+
+lcs_buttons_25r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_25r2c1] selected
+ [lcs_buttons_25r2c2] ever clicked
+
+lcs_buttons_25r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_25r3c1] selected
+ [lcs_buttons_25r3c2] ever clicked
+
+options_buttons_25r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_25r1c1] selected
+ [options_buttons_25r1c2] ever clicked
+
+options_buttons_25r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_25r2c1] selected
+ [options_buttons_25r2c2] ever clicked
+
+options_buttons_25r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_25r3c1] selected
+ [options_buttons_25r3c2] ever clicked
+
+options_buttons_25r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_25r4c1] selected
+ [options_buttons_25r4c2] ever clicked
+
+share_buttons_25r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_25r1c1] selected
+ [share_buttons_25r1c2] ever clicked
+
+share_buttons_25r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_25r2c1] selected
+ [share_buttons_25r2c2] ever clicked
+
+share_buttons_25r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_25r3c1] selected
+ [share_buttons_25r3c2] ever clicked
+
+share_buttons_25r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_25r4c1] selected
+ [share_buttons_25r4c2] ever clicked
+
+share_buttons_25r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_25r5c1] selected
+ [share_buttons_25r5c2] ever clicked
+
+emoji_buttons_25r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_25r1c1] selected
+ [emoji_buttons_25r1c2] ever clicked
+
+emoji_buttons_25r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_25r2c1] selected
+ [emoji_buttons_25r2c2] ever clicked
+
+emoji_buttons_25r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_25r3c1] selected
+ [emoji_buttons_25r3c2] ever clicked
+
+emoji_buttons_25r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_25r4c1] selected
+ [emoji_buttons_25r4c2] ever clicked
+
+emoji_buttons_25r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_25r5c1] selected
+ [emoji_buttons_25r5c2] ever clicked
+
+emoji_buttons_25r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_25r6c1] selected
+ [emoji_buttons_25r6c2] ever clicked
+
+emoji_buttons_25r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_25r7c1] selected
+ [emoji_buttons_25r7c2] ever clicked
+
+report_buttons_25r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_25r1c1] selected
+ [report_buttons_25r1c2] ever clicked
+
+report_buttons_25r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_25r2c1] selected
+ [report_buttons_25r2c2] ever clicked
+
+report_buttons_25r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_25r3c1] selected
+ [report_buttons_25r3c2] ever clicked
+
+report_buttons_25r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_25r4c1] selected
+ [report_buttons_25r4c2] ever clicked
+
+report_buttons_25r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_25r5c1] selected
+ [report_buttons_25r5c2] ever clicked
+
+report_buttons_25r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_25r6c1] selected
+ [report_buttons_25r6c2] ever clicked
+
+report_buttons_25r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_25r7c1] selected
+ [report_buttons_25r7c2] ever clicked
+
+report_buttons_25r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_25r8c1] selected
+ [report_buttons_25r8c2] ever clicked
+
+report_buttons_25r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_25r9c1] selected
+ [report_buttons_25r9c2] ever clicked
+
+report_buttons_25r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_25r10c1] selected
+ [report_buttons_25r10c2] ever clicked
+
+report_buttons_25r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_25r11c1] selected
+ [report_buttons_25r11c2] ever clicked
+
+blurred_buttons_25: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_25r1c2] See why
+ [blurred_buttons_25r2c2] See post
+
+timers_25: hidden
+Values: 0-99999999
+ [timers_25r1] See post clicked (if blurred screen) /in seconds/
+ [timers_25r2] First interatction with post /in seconds/
+ [timers_25r3] Video length watched /in seconds/
+
+OEs_25: hidden
+Open text response
+ [OEs_25r1] Comment OE
+ [OEs_25r2] Report OE
+
+options_button_26: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_26r1c2] ever clicked
+
+lcs_buttons_26r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_26r1c1] selected
+ [lcs_buttons_26r1c2] ever clicked
+
+lcs_buttons_26r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_26r2c1] selected
+ [lcs_buttons_26r2c2] ever clicked
+
+lcs_buttons_26r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_26r3c1] selected
+ [lcs_buttons_26r3c2] ever clicked
+
+options_buttons_26r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_26r1c1] selected
+ [options_buttons_26r1c2] ever clicked
+
+options_buttons_26r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_26r2c1] selected
+ [options_buttons_26r2c2] ever clicked
+
+options_buttons_26r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_26r3c1] selected
+ [options_buttons_26r3c2] ever clicked
+
+options_buttons_26r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_26r4c1] selected
+ [options_buttons_26r4c2] ever clicked
+
+share_buttons_26r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_26r1c1] selected
+ [share_buttons_26r1c2] ever clicked
+
+share_buttons_26r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_26r2c1] selected
+ [share_buttons_26r2c2] ever clicked
+
+share_buttons_26r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_26r3c1] selected
+ [share_buttons_26r3c2] ever clicked
+
+share_buttons_26r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_26r4c1] selected
+ [share_buttons_26r4c2] ever clicked
+
+share_buttons_26r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_26r5c1] selected
+ [share_buttons_26r5c2] ever clicked
+
+emoji_buttons_26r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_26r1c1] selected
+ [emoji_buttons_26r1c2] ever clicked
+
+emoji_buttons_26r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_26r2c1] selected
+ [emoji_buttons_26r2c2] ever clicked
+
+emoji_buttons_26r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_26r3c1] selected
+ [emoji_buttons_26r3c2] ever clicked
+
+emoji_buttons_26r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_26r4c1] selected
+ [emoji_buttons_26r4c2] ever clicked
+
+emoji_buttons_26r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_26r5c1] selected
+ [emoji_buttons_26r5c2] ever clicked
+
+emoji_buttons_26r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_26r6c1] selected
+ [emoji_buttons_26r6c2] ever clicked
+
+emoji_buttons_26r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_26r7c1] selected
+ [emoji_buttons_26r7c2] ever clicked
+
+report_buttons_26r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_26r1c1] selected
+ [report_buttons_26r1c2] ever clicked
+
+report_buttons_26r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_26r2c1] selected
+ [report_buttons_26r2c2] ever clicked
+
+report_buttons_26r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_26r3c1] selected
+ [report_buttons_26r3c2] ever clicked
+
+report_buttons_26r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_26r4c1] selected
+ [report_buttons_26r4c2] ever clicked
+
+report_buttons_26r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_26r5c1] selected
+ [report_buttons_26r5c2] ever clicked
+
+report_buttons_26r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_26r6c1] selected
+ [report_buttons_26r6c2] ever clicked
+
+report_buttons_26r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_26r7c1] selected
+ [report_buttons_26r7c2] ever clicked
+
+report_buttons_26r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_26r8c1] selected
+ [report_buttons_26r8c2] ever clicked
+
+report_buttons_26r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_26r9c1] selected
+ [report_buttons_26r9c2] ever clicked
+
+report_buttons_26r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_26r10c1] selected
+ [report_buttons_26r10c2] ever clicked
+
+report_buttons_26r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_26r11c1] selected
+ [report_buttons_26r11c2] ever clicked
+
+blurred_buttons_26: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_26r1c2] See why
+ [blurred_buttons_26r2c2] See post
+
+timers_26: hidden
+Values: 0-99999999
+ [timers_26r1] See post clicked (if blurred screen) /in seconds/
+ [timers_26r2] First interatction with post /in seconds/
+ [timers_26r3] Video length watched /in seconds/
+
+OEs_26: hidden
+Open text response
+ [OEs_26r1] Comment OE
+ [OEs_26r2] Report OE
+
+options_button_27: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_27r1c2] ever clicked
+
+lcs_buttons_27r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_27r1c1] selected
+ [lcs_buttons_27r1c2] ever clicked
+
+lcs_buttons_27r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_27r2c1] selected
+ [lcs_buttons_27r2c2] ever clicked
+
+lcs_buttons_27r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_27r3c1] selected
+ [lcs_buttons_27r3c2] ever clicked
+
+options_buttons_27r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_27r1c1] selected
+ [options_buttons_27r1c2] ever clicked
+
+options_buttons_27r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_27r2c1] selected
+ [options_buttons_27r2c2] ever clicked
+
+options_buttons_27r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_27r3c1] selected
+ [options_buttons_27r3c2] ever clicked
+
+options_buttons_27r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_27r4c1] selected
+ [options_buttons_27r4c2] ever clicked
+
+share_buttons_27r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_27r1c1] selected
+ [share_buttons_27r1c2] ever clicked
+
+share_buttons_27r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_27r2c1] selected
+ [share_buttons_27r2c2] ever clicked
+
+share_buttons_27r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_27r3c1] selected
+ [share_buttons_27r3c2] ever clicked
+
+share_buttons_27r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_27r4c1] selected
+ [share_buttons_27r4c2] ever clicked
+
+share_buttons_27r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_27r5c1] selected
+ [share_buttons_27r5c2] ever clicked
+
+emoji_buttons_27r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_27r1c1] selected
+ [emoji_buttons_27r1c2] ever clicked
+
+emoji_buttons_27r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_27r2c1] selected
+ [emoji_buttons_27r2c2] ever clicked
+
+emoji_buttons_27r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_27r3c1] selected
+ [emoji_buttons_27r3c2] ever clicked
+
+emoji_buttons_27r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_27r4c1] selected
+ [emoji_buttons_27r4c2] ever clicked
+
+emoji_buttons_27r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_27r5c1] selected
+ [emoji_buttons_27r5c2] ever clicked
+
+emoji_buttons_27r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_27r6c1] selected
+ [emoji_buttons_27r6c2] ever clicked
+
+emoji_buttons_27r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_27r7c1] selected
+ [emoji_buttons_27r7c2] ever clicked
+
+report_buttons_27r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_27r1c1] selected
+ [report_buttons_27r1c2] ever clicked
+
+report_buttons_27r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_27r2c1] selected
+ [report_buttons_27r2c2] ever clicked
+
+report_buttons_27r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_27r3c1] selected
+ [report_buttons_27r3c2] ever clicked
+
+report_buttons_27r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_27r4c1] selected
+ [report_buttons_27r4c2] ever clicked
+
+report_buttons_27r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_27r5c1] selected
+ [report_buttons_27r5c2] ever clicked
+
+report_buttons_27r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_27r6c1] selected
+ [report_buttons_27r6c2] ever clicked
+
+report_buttons_27r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_27r7c1] selected
+ [report_buttons_27r7c2] ever clicked
+
+report_buttons_27r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_27r8c1] selected
+ [report_buttons_27r8c2] ever clicked
+
+report_buttons_27r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_27r9c1] selected
+ [report_buttons_27r9c2] ever clicked
+
+report_buttons_27r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_27r10c1] selected
+ [report_buttons_27r10c2] ever clicked
+
+report_buttons_27r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_27r11c1] selected
+ [report_buttons_27r11c2] ever clicked
+
+blurred_buttons_27: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_27r1c2] See why
+ [blurred_buttons_27r2c2] See post
+
+timers_27: hidden
+Values: 0-99999999
+ [timers_27r1] See post clicked (if blurred screen) /in seconds/
+ [timers_27r2] First interatction with post /in seconds/
+ [timers_27r3] Video length watched /in seconds/
+
+OEs_27: hidden
+Open text response
+ [OEs_27r1] Comment OE
+ [OEs_27r2] Report OE
+
+options_button_28: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_28r1c2] ever clicked
+
+lcs_buttons_28r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_28r1c1] selected
+ [lcs_buttons_28r1c2] ever clicked
+
+lcs_buttons_28r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_28r2c1] selected
+ [lcs_buttons_28r2c2] ever clicked
+
+lcs_buttons_28r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_28r3c1] selected
+ [lcs_buttons_28r3c2] ever clicked
+
+options_buttons_28r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_28r1c1] selected
+ [options_buttons_28r1c2] ever clicked
+
+options_buttons_28r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_28r2c1] selected
+ [options_buttons_28r2c2] ever clicked
+
+options_buttons_28r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_28r3c1] selected
+ [options_buttons_28r3c2] ever clicked
+
+options_buttons_28r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_28r4c1] selected
+ [options_buttons_28r4c2] ever clicked
+
+share_buttons_28r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_28r1c1] selected
+ [share_buttons_28r1c2] ever clicked
+
+share_buttons_28r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_28r2c1] selected
+ [share_buttons_28r2c2] ever clicked
+
+share_buttons_28r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_28r3c1] selected
+ [share_buttons_28r3c2] ever clicked
+
+share_buttons_28r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_28r4c1] selected
+ [share_buttons_28r4c2] ever clicked
+
+share_buttons_28r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_28r5c1] selected
+ [share_buttons_28r5c2] ever clicked
+
+emoji_buttons_28r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_28r1c1] selected
+ [emoji_buttons_28r1c2] ever clicked
+
+emoji_buttons_28r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_28r2c1] selected
+ [emoji_buttons_28r2c2] ever clicked
+
+emoji_buttons_28r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_28r3c1] selected
+ [emoji_buttons_28r3c2] ever clicked
+
+emoji_buttons_28r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_28r4c1] selected
+ [emoji_buttons_28r4c2] ever clicked
+
+emoji_buttons_28r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_28r5c1] selected
+ [emoji_buttons_28r5c2] ever clicked
+
+emoji_buttons_28r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_28r6c1] selected
+ [emoji_buttons_28r6c2] ever clicked
+
+emoji_buttons_28r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_28r7c1] selected
+ [emoji_buttons_28r7c2] ever clicked
+
+report_buttons_28r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_28r1c1] selected
+ [report_buttons_28r1c2] ever clicked
+
+report_buttons_28r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_28r2c1] selected
+ [report_buttons_28r2c2] ever clicked
+
+report_buttons_28r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_28r3c1] selected
+ [report_buttons_28r3c2] ever clicked
+
+report_buttons_28r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_28r4c1] selected
+ [report_buttons_28r4c2] ever clicked
+
+report_buttons_28r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_28r5c1] selected
+ [report_buttons_28r5c2] ever clicked
+
+report_buttons_28r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_28r6c1] selected
+ [report_buttons_28r6c2] ever clicked
+
+report_buttons_28r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_28r7c1] selected
+ [report_buttons_28r7c2] ever clicked
+
+report_buttons_28r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_28r8c1] selected
+ [report_buttons_28r8c2] ever clicked
+
+report_buttons_28r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_28r9c1] selected
+ [report_buttons_28r9c2] ever clicked
+
+report_buttons_28r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_28r10c1] selected
+ [report_buttons_28r10c2] ever clicked
+
+report_buttons_28r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_28r11c1] selected
+ [report_buttons_28r11c2] ever clicked
+
+blurred_buttons_28: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_28r1c2] See why
+ [blurred_buttons_28r2c2] See post
+
+timers_28: hidden
+Values: 0-99999999
+ [timers_28r1] See post clicked (if blurred screen) /in seconds/
+ [timers_28r2] First interatction with post /in seconds/
+ [timers_28r3] Video length watched /in seconds/
+
+OEs_28: hidden
+Open text response
+ [OEs_28r1] Comment OE
+ [OEs_28r2] Report OE
+
+options_button_29: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_29r1c2] ever clicked
+
+lcs_buttons_29r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_29r1c1] selected
+ [lcs_buttons_29r1c2] ever clicked
+
+lcs_buttons_29r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_29r2c1] selected
+ [lcs_buttons_29r2c2] ever clicked
+
+lcs_buttons_29r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_29r3c1] selected
+ [lcs_buttons_29r3c2] ever clicked
+
+options_buttons_29r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_29r1c1] selected
+ [options_buttons_29r1c2] ever clicked
+
+options_buttons_29r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_29r2c1] selected
+ [options_buttons_29r2c2] ever clicked
+
+options_buttons_29r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_29r3c1] selected
+ [options_buttons_29r3c2] ever clicked
+
+options_buttons_29r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_29r4c1] selected
+ [options_buttons_29r4c2] ever clicked
+
+share_buttons_29r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_29r1c1] selected
+ [share_buttons_29r1c2] ever clicked
+
+share_buttons_29r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_29r2c1] selected
+ [share_buttons_29r2c2] ever clicked
+
+share_buttons_29r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_29r3c1] selected
+ [share_buttons_29r3c2] ever clicked
+
+share_buttons_29r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_29r4c1] selected
+ [share_buttons_29r4c2] ever clicked
+
+share_buttons_29r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_29r5c1] selected
+ [share_buttons_29r5c2] ever clicked
+
+emoji_buttons_29r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_29r1c1] selected
+ [emoji_buttons_29r1c2] ever clicked
+
+emoji_buttons_29r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_29r2c1] selected
+ [emoji_buttons_29r2c2] ever clicked
+
+emoji_buttons_29r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_29r3c1] selected
+ [emoji_buttons_29r3c2] ever clicked
+
+emoji_buttons_29r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_29r4c1] selected
+ [emoji_buttons_29r4c2] ever clicked
+
+emoji_buttons_29r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_29r5c1] selected
+ [emoji_buttons_29r5c2] ever clicked
+
+emoji_buttons_29r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_29r6c1] selected
+ [emoji_buttons_29r6c2] ever clicked
+
+emoji_buttons_29r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_29r7c1] selected
+ [emoji_buttons_29r7c2] ever clicked
+
+report_buttons_29r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_29r1c1] selected
+ [report_buttons_29r1c2] ever clicked
+
+report_buttons_29r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_29r2c1] selected
+ [report_buttons_29r2c2] ever clicked
+
+report_buttons_29r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_29r3c1] selected
+ [report_buttons_29r3c2] ever clicked
+
+report_buttons_29r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_29r4c1] selected
+ [report_buttons_29r4c2] ever clicked
+
+report_buttons_29r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_29r5c1] selected
+ [report_buttons_29r5c2] ever clicked
+
+report_buttons_29r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_29r6c1] selected
+ [report_buttons_29r6c2] ever clicked
+
+report_buttons_29r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_29r7c1] selected
+ [report_buttons_29r7c2] ever clicked
+
+report_buttons_29r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_29r8c1] selected
+ [report_buttons_29r8c2] ever clicked
+
+report_buttons_29r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_29r9c1] selected
+ [report_buttons_29r9c2] ever clicked
+
+report_buttons_29r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_29r10c1] selected
+ [report_buttons_29r10c2] ever clicked
+
+report_buttons_29r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_29r11c1] selected
+ [report_buttons_29r11c2] ever clicked
+
+blurred_buttons_29: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_29r1c2] See why
+ [blurred_buttons_29r2c2] See post
+
+timers_29: hidden
+Values: 0-99999999
+ [timers_29r1] See post clicked (if blurred screen) /in seconds/
+ [timers_29r2] First interatction with post /in seconds/
+ [timers_29r3] Video length watched /in seconds/
+
+OEs_29: hidden
+Open text response
+ [OEs_29r1] Comment OE
+ [OEs_29r2] Report OE
+
+options_button_30: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_button_30r1c2] ever clicked
+
+lcs_buttons_30r1: Like - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_30r1c1] selected
+ [lcs_buttons_30r1c2] ever clicked
+
+lcs_buttons_30r2: Comment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_30r2c1] selected
+ [lcs_buttons_30r2c2] ever clicked
+
+lcs_buttons_30r3: Share - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [lcs_buttons_30r3c1] selected
+ [lcs_buttons_30r3c2] ever clicked
+
+options_buttons_30r1: Save link - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_30r1c1] selected
+ [options_buttons_30r1c2] ever clicked
+
+options_buttons_30r2: Find support or report post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_30r2c1] selected
+ [options_buttons_30r2c2] ever clicked
+
+options_buttons_30r3: Turn on notifications for this post - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_30r3c1] selected
+ [options_buttons_30r3c2] ever clicked
+
+options_buttons_30r4: View/edit history - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [options_buttons_30r4c1] selected
+ [options_buttons_30r4c2] ever clicked
+
+share_buttons_30r1: Share now (Friends) - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_30r1c1] selected
+ [share_buttons_30r1c2] ever clicked
+
+share_buttons_30r2: Share to feed - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_30r2c1] selected
+ [share_buttons_30r2c2] ever clicked
+
+share_buttons_30r3: Send in Messenger - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_30r3c1] selected
+ [share_buttons_30r3c2] ever clicked
+
+share_buttons_30r4: Share to a group - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_30r4c1] selected
+ [share_buttons_30r4c2] ever clicked
+
+share_buttons_30r5: Share on a friend's profile - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [share_buttons_30r5c1] selected
+ [share_buttons_30r5c2] ever clicked
+
+emoji_buttons_30r1: Thumbs up - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_30r1c1] selected
+ [emoji_buttons_30r1c2] ever clicked
+
+emoji_buttons_30r2: Love - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_30r2c1] selected
+ [emoji_buttons_30r2c2] ever clicked
+
+emoji_buttons_30r3: Care - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_30r3c1] selected
+ [emoji_buttons_30r3c2] ever clicked
+
+emoji_buttons_30r4: Laugh - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_30r4c1] selected
+ [emoji_buttons_30r4c2] ever clicked
+
+emoji_buttons_30r5: Wow - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_30r5c1] selected
+ [emoji_buttons_30r5c2] ever clicked
+
+emoji_buttons_30r6: Crying - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_30r6c1] selected
+ [emoji_buttons_30r6c2] ever clicked
+
+emoji_buttons_30r7: Angry - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [emoji_buttons_30r7c1] selected
+ [emoji_buttons_30r7c2] ever clicked
+
+report_buttons_30r1: Nudity - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_30r1c1] selected
+ [report_buttons_30r1c2] ever clicked
+
+report_buttons_30r2: Violence - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_30r2c1] selected
+ [report_buttons_30r2c2] ever clicked
+
+report_buttons_30r3: Harassment - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_30r3c1] selected
+ [report_buttons_30r3c2] ever clicked
+
+report_buttons_30r4: Suicide of self-injury - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_30r4c1] selected
+ [report_buttons_30r4c2] ever clicked
+
+report_buttons_30r5: False information - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_30r5c1] selected
+ [report_buttons_30r5c2] ever clicked
+
+report_buttons_30r6: Spam - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_30r6c1] selected
+ [report_buttons_30r6c2] ever clicked
+
+report_buttons_30r7: Unauthorised sales - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_30r7c1] selected
+ [report_buttons_30r7c2] ever clicked
+
+report_buttons_30r8: Hate speech - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_30r8c1] selected
+ [report_buttons_30r8c2] ever clicked
+
+report_buttons_30r9: Terrorism - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_30r9c1] selected
+ [report_buttons_30r9c2] ever clicked
+
+report_buttons_30r10: Something else - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_30r10c1] selected
+ [report_buttons_30r10c2] ever clicked
+
+report_buttons_30r11: Block Channel - hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [report_buttons_30r11c1] selected
+ [report_buttons_30r11c2] ever clicked
+
+blurred_buttons_30: hidden
+Values: 0-1
+ 0=Unchecked
+ 1=Checked
+ [blurred_buttons_30r1c2] See why
+ [blurred_buttons_30r2c2] See post
+
+timers_30: hidden
+Values: 0-99999999
+ [timers_30r1] See post clicked (if blurred screen) /in seconds/
+ [timers_30r2] First interatction with post /in seconds/
+ [timers_30r3] Video length watched /in seconds/
+
+OEs_30: hidden
+Open text response
+ [OEs_30r1] Comment OE
+ [OEs_30r2] Report OE
+
+Q1: Thinking about Australia, to what extent do you think the following are important issues facing the country?
+Values: 1-7
+ 1=Not at all important
+ 2=Not important
+ 3=Not that important
+ 4=Neither important nor not important
+ 5=Somewhat important
+ 6=Important
+ 7=Extremely important
+ [Q1r1] The education system
+ [Q1r2] The health system
+ [Q1r3] Inflation
+ [Q1r4] COVID
+ [Q1r5] Climate change
+ [Q1r6] Immigration
+
+[C1a]: A bat and a ball cost $1.10 in total.The bat costs $1.00 more than the ball.How much does the ball cost?
+Values: 0-999
+
+[C1b]: If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?
+Values: 0-100
+
+[C1c]: In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?
+Values: 0-100
+
+[C1d]: If you're running a race and you pass the person in second place, what place are you in? For first place, write in the number '1', for second place, write in the number '2' and so on...
+Values: 0-100
+
+[C1e]: A farmer had 15 sheep and all but 8 died.How many are left?
+Values: 0-100
+
+[C1f]: Emily's father has three daughters. The first two are named April and May. What is the third daughter's name?
+Open text response
+
+[C1g]: How many cubic feet of dirt are there in a hole that is 3' deep x 3' wide x 3' long?
+Values: 0-100
+
+[Q4r1]: On average, how often do you use the internet?
+Values: 2-8
+ 8=Multiple times daily
+ 7=About once a day
+ 6=Less than daily but more than weekly
+ 5=Weekly
+ 4=Less than weekly but more than monthly
+ 3=Monthly
+ 2=Less than monthly
+
+[Q4r2]: On average, how often do you use social media?
+Values: 2-8
+ 8=Multiple times daily
+ 7=About once a day
+ 6=Less than daily but more than weekly
+ 5=Weekly
+ 4=Less than weekly but more than monthly
+ 3=Monthly
+ 2=Less than monthly
+
+[Q4r3]: On average, how often do you use messaging apps or platforms?
+Values: 1-8
+ 8=Multiple times daily
+ 7=About once a day
+ 6=Less than daily but more than weekly
+ 5=Weekly
+ 4=Less than weekly but more than monthly
+ 3=Monthly
+ 2=Less than monthly
+ 1=Never
+
+[Q10B]: And how closely do you follow politics on TV, radio, newspapers, or the internet?
+Values: 1-4
+ 4=Very closely
+ 3=Fairly closely
+ 2=Not very closely
+ 1=Not at all
+
+[Q5]: How often in the past week have you seen online content that you would classify as misinformation?
+Values: 1-5
+ 5=7 times or more
+ 4=5-6 times
+ 3=3-4 times
+ 2=1-2 times
+ 1=Not at all
+
+Q6: To what extent do you disagree or agree with the following?
+Values: 1-7
+ 1=Strongly disagree
+ 2=Disagree
+ 3=Slightly disagree
+ 4=Neither agree nor disagree
+ 5=Slightly agree
+ 6=Agree
+ 7=Strongly agree
+ [Q6r1] I am confident in my ability to identify misinformation onlineBy misinformation, we mean false or misleading information that is spread deliberately to deceive.
+ [Q6r2] For quality control purposes, please select 'slightly disagree' here
+
+[vlist]: Participant source
+Values: 1-4
+ 1=Open Survey (list=0)
+ 2=Prolific 1 (list=1)
+ 3=Prolific 2 (list=2)
+ 4=Lifepoints (list=3)
+
+[qtime]: Total Interview Time
+Values: -99999-999999
+
+[vos]: Operating System
+Values: 1-16
+ 1=Windows 95
+ 2=Windows 98
+ 3=Windows 8
+ 4=Windows 10
+ 5=Windows 7
+ 6=Windows Vista
+ 7=Windows 2003
+ 8=Windows XP
+ 9=Windows 2000
+ 10=Microsoft Windows NT 4.0
+ 11=Windows ME
+ 12=iPhone/iPad
+ 13=Mac OS X or older
+ 14=Other Mobile
+ 15=Linux, UNIX
+ 16=Other
+
+[vosr15oe]: Operating System - Other
+Open text response
+
+[vbrowser]: Browser
+Values: 1-16
+ 1=Opera
+ 2=MS Edge
+ 3=MSIE 11
+ 4=MSIE 10.x
+ 5=MSIE 9.x
+ 6=MSIE 8.x
+ 7=MSIE 7.x
+ 8=MSIE 6.x
+ 9=MSIE 5.x or older
+ 10=Chrome
+ 11=Safari
+ 12=Firefox
+ 13=Other Mozilla or Netscape
+ 14=Mobile
+ 15=Text Browser
+ 16=Other
+
+[vbrowserr15oe]: Browser - Other
+Open text response
+
+[vmobiledevice]: Mobile device category
+Values: 1-5
+ 1=Smartphone
+ 2=Featurephone
+ 3=Tablet
+ 4=Other mobile
+ 5=Desktop
+
+[vmobileos]: Mobile OS
+Values: 1-6
+ 1=iOS
+ 2=Android
+ 3=Symbian
+ 4=Windows Phone
+ 5=Blackberry
+ 6=Other/Desktop
+
+[start_date]: Survey start time
+Open text response
+
+[vdropout]: Last seen question
+Values: 1-81
+ 1=(S1) Thank you for agreeing to take part in this study. We are interested in how people use social media, particularly how they engage with various types of posts. The study will take approximately 15 minutes to complete. All your responses are kept in the strictest confidence and your identity will not be revealed to any third party. Click here to see our privacy policy. Please take the time you need to complete this study at your own speed. We'll ask you a series of short questions, then you will interact with a simulated social media platform. Finally, we'll ask you some questions about what you think about social media. Please note that this study contains some examples of posts which have been flagged as misinformation by independent fact-checkers. As part of this survey, Kantar Public, the sponsor of this survey, would like you to view a webpage hosted by its trusted partner Forsta. While viewing the webpage, Forsta will record interaction information: clicks and timestamps. This information will be shared with Kantar Public for analytical purposes. If you have read all the above, and are happy to participate, please choose 'Yes, I want to take part.'
+ 2=(QID) Please enter your unique prolific ID.
+ 3=(Video_Check) Please watch the video and let us know what you see in it.
+ 4=(Audio_Check) Please listen to the audio and let us know what you hear.
+ 5=(demo_intro) Comment element
+ 6=(S2) Which of the following social media platforms have you used in the past 12 months?
+ 7=(D1a) What age were you on your last birthday?
+ 8=(D1b) To ensure we interview a cross section of the public, could you please tell us which of the following groups your age is in?
+ 9=(D2) What is your gender?
+ 10=(D3) Which Australian state or territory do you live in?
+ 11=(D3a) Do you live in your state or territory's capital city, or somewhere else?
+ 12=(D4) Do you speak a language other than English at home?
+ 13=(D5) Are you of Aboriginal or Torres Strait Islander origin?
+ 14=(D6) What is the highest level of education that you have completed?
+ 15=(ARM) Hidden: holds which arm the respondent belongs to.Will be displayed while testing.
+ 16=(ARM_2_3_intro) Comment element
+ 17=(arm3_instructions_0) Comment element
+ 18=(arm3_instructions_1) Comment element
+ 19=(arm3_instructions_2) Comment element
+ 20=(arm3_instructions_3) Comment element
+ 21=(arm3_instructions_4) Comment element
+ 22=(arm3_instructions_5) Comment element
+ 23=(ARM3_1) Please select the three questions across the five categories shown here that you think are most important to ask yourself when deciding if a social media post is trustworthy. There are no right answers, we are interested in what you think is most important. You can select questions from different categories or the same category.
+ 24=(ARM3_2) Please rank your three questions in order of importance.
+ 25=(aboveARM3_3,ARM3_3) Comment element
+ 26=(b4Media) Comment element
+ 27=(afterARM3_3) Comment element
+ 28=(training_screen) Comment element
+ 29=(training_instructions_0,front_0,options_button_0,lcs_buttons_0,options_buttons_0,share_buttons_0,emoji_buttons_0,report_buttons_0,blurred_buttons_0,timers_0,OEs_0) Comment element
+ 30=(training_outro_0) Comment element
+ 31=(front_1,options_button_1,lcs_buttons_1,options_buttons_1,share_buttons_1,emoji_buttons_1,report_buttons_1,blurred_buttons_1,timers_1,OEs_1) Comment element
+ 32=(front_2,options_button_2,lcs_buttons_2,options_buttons_2,share_buttons_2,emoji_buttons_2,report_buttons_2,blurred_buttons_2,timers_2,OEs_2) Comment element
+ 33=(front_3,options_button_3,lcs_buttons_3,options_buttons_3,share_buttons_3,emoji_buttons_3,report_buttons_3,blurred_buttons_3,timers_3,OEs_3) Comment element
+ 34=(front_4,options_button_4,lcs_buttons_4,options_buttons_4,share_buttons_4,emoji_buttons_4,report_buttons_4,blurred_buttons_4,timers_4,OEs_4) Comment element
+ 35=(front_5,options_button_5,lcs_buttons_5,options_buttons_5,share_buttons_5,emoji_buttons_5,report_buttons_5,blurred_buttons_5,timers_5,OEs_5) Comment element
+ 36=(front_6,options_button_6,lcs_buttons_6,options_buttons_6,share_buttons_6,emoji_buttons_6,report_buttons_6,blurred_buttons_6,timers_6,OEs_6) Comment element
+ 37=(front_7,options_button_7,lcs_buttons_7,options_buttons_7,share_buttons_7,emoji_buttons_7,report_buttons_7,blurred_buttons_7,timers_7,OEs_7) Comment element
+ 38=(front_8,options_button_8,lcs_buttons_8,options_buttons_8,share_buttons_8,emoji_buttons_8,report_buttons_8,blurred_buttons_8,timers_8,OEs_8) Comment element
+ 39=(front_9,options_button_9,lcs_buttons_9,options_buttons_9,share_buttons_9,emoji_buttons_9,report_buttons_9,blurred_buttons_9,timers_9,OEs_9) Comment element
+ 40=(front_10,options_button_10,lcs_buttons_10,options_buttons_10,share_buttons_10,emoji_buttons_10,report_buttons_10,blurred_buttons_10,timers_10,OEs_10) Comment element
+ 41=(front_11,options_button_11,lcs_buttons_11,options_buttons_11,share_buttons_11,emoji_buttons_11,report_buttons_11,blurred_buttons_11,timers_11,OEs_11) Comment element
+ 42=(front_12,options_button_12,lcs_buttons_12,options_buttons_12,share_buttons_12,emoji_buttons_12,report_buttons_12,blurred_buttons_12,timers_12,OEs_12) Comment element
+ 43=(front_13,options_button_13,lcs_buttons_13,options_buttons_13,share_buttons_13,emoji_buttons_13,report_buttons_13,blurred_buttons_13,timers_13,OEs_13) Comment element
+ 44=(front_14,options_button_14,lcs_buttons_14,options_buttons_14,share_buttons_14,emoji_buttons_14,report_buttons_14,blurred_buttons_14,timers_14,OEs_14) Comment element
+ 45=(front_15,options_button_15,lcs_buttons_15,options_buttons_15,share_buttons_15,emoji_buttons_15,report_buttons_15,blurred_buttons_15,timers_15,OEs_15) Comment element
+ 46=(front_16,options_button_16,lcs_buttons_16,options_buttons_16,share_buttons_16,emoji_buttons_16,report_buttons_16,blurred_buttons_16,timers_16,OEs_16) Comment element
+ 47=(front_17,options_button_17,lcs_buttons_17,options_buttons_17,share_buttons_17,emoji_buttons_17,report_buttons_17,blurred_buttons_17,timers_17,OEs_17) Comment element
+ 48=(front_18,options_button_18,lcs_buttons_18,options_buttons_18,share_buttons_18,emoji_buttons_18,report_buttons_18,blurred_buttons_18,timers_18,OEs_18) Comment element
+ 49=(front_19,options_button_19,lcs_buttons_19,options_buttons_19,share_buttons_19,emoji_buttons_19,report_buttons_19,blurred_buttons_19,timers_19,OEs_19) Comment element
+ 50=(front_20,options_button_20,lcs_buttons_20,options_buttons_20,share_buttons_20,emoji_buttons_20,report_buttons_20,blurred_buttons_20,timers_20,OEs_20) Comment element
+ 51=(front_21,options_button_21,lcs_buttons_21,options_buttons_21,share_buttons_21,emoji_buttons_21,report_buttons_21,blurred_buttons_21,timers_21,OEs_21) Comment element
+ 52=(front_22,options_button_22,lcs_buttons_22,options_buttons_22,share_buttons_22,emoji_buttons_22,report_buttons_22,blurred_buttons_22,timers_22,OEs_22) Comment element
+ 53=(front_23,options_button_23,lcs_buttons_23,options_buttons_23,share_buttons_23,emoji_buttons_23,report_buttons_23,blurred_buttons_23,timers_23,OEs_23) Comment element
+ 54=(front_24,options_button_24,lcs_buttons_24,options_buttons_24,share_buttons_24,emoji_buttons_24,report_buttons_24,blurred_buttons_24,timers_24,OEs_24) Comment element
+ 55=(front_25,options_button_25,lcs_buttons_25,options_buttons_25,share_buttons_25,emoji_buttons_25,report_buttons_25,blurred_buttons_25,timers_25,OEs_25) Comment element
+ 56=(front_26,options_button_26,lcs_buttons_26,options_buttons_26,share_buttons_26,emoji_buttons_26,report_buttons_26,blurred_buttons_26,timers_26,OEs_26) Comment element
+ 57=(front_27,options_button_27,lcs_buttons_27,options_buttons_27,share_buttons_27,emoji_buttons_27,report_buttons_27,blurred_buttons_27,timers_27,OEs_27) Comment element
+ 58=(front_28,options_button_28,lcs_buttons_28,options_buttons_28,share_buttons_28,emoji_buttons_28,report_buttons_28,blurred_buttons_28,timers_28,OEs_28) Comment element
+ 59=(front_29,options_button_29,lcs_buttons_29,options_buttons_29,share_buttons_29,emoji_buttons_29,report_buttons_29,blurred_buttons_29,timers_29,OEs_29) Comment element
+ 60=(front_30,options_button_30,lcs_buttons_30,options_buttons_30,share_buttons_30,emoji_buttons_30,report_buttons_30,blurred_buttons_30,timers_30,OEs_30) Comment element
+ 61=(instructions_3) Comment element
+ 62=(Q1) Thinking about Australia, to what extent do you think the following are important issues facing the country?
+ 63=(Q1a) You mentioned you think that [pipe: Q1_statement lower] is $ {Q1.cols[Q1[Q1_statement.selected].val].text.lower()}. Please explain the reasons for your answer, using as much detail as possible...
+ 64=(cognitive_intro) Comment element
+ 65=(C1a) A bat and a ball cost $1.10 in total.The bat costs $1.00 more than the ball.How much does the ball cost?
+ 66=(C1b) If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?
+ 67=(C1c) In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?
+ 68=(C1d) If you're running a race and you pass the person in second place, what place are you in? For first place, write in the number '1', for second place, write in the number '2' and so on...
+ 69=(C1e) A farmer had 15 sheep and all but 8 died.How many are left?
+ 70=(C1f) Emily's father has three daughters. The first two are named April and May. What is the third daughter's name?
+ 71=(C1g) How many cubic feet of dirt are there in a hole that is 3' deep x 3' wide x 3' long?
+ 72=(instructions_4) Comment element
+ 73=(Q4r1) On average, how often do you use the internet?
+ 74=(Q4r2) On average, how often do you use social media?
+ 75=(Q4r3) On average, how often do you use messaging apps or platforms?
+ 76=(Q10B) And how closely do you follow politics on TV, radio, newspapers, or the internet?
+ 77=(Q5) How often in the past week have you seen online content that you would classify as misinformation?
+ 78=(Q6) To what extent do you disagree or agree with the following?
+ 79=(misinfo_debrief,misinfo_posts) Comment element
+ 80=(legit_debrief,legit_posts) Comment element
+ 81=(outro) Comment element
+
+[source]: Captured variable
+Open text response
+
+[list]: Captured variable
+Open text response
+
+[url]: Captured variable
+Open text response
+
+[userAgent]: Captured variable
+Open text response
+
+[panelPartnerId]: Captured variable
+Open text response
+
+[l]: Captured variable
+Open text response
+
+[countryCode]: Captured variable
+Open text response
+
+[PROLIFIC_PID]: Captured variable
+Open text response
+
+[STUDY_ID]: Captured variable
+Open text response
+
+[SESSION_ID]: Captured variable
+Open text response
+
+[dcua]: Captured variable
+Open text response
+
+[session]: Captured variable
+Open text response
+
+[QID]: Please enter your unique prolific ID.
+Open text response
+
+[D2r4oe]: What is your gender? - My gender identity isn't listed. I identify as...
+Open text response
+
+[D3a]: Do you live in your state or territory's capital city, or somewhere else?
+Values: 1-2
+ 1=Capital city
+ 2=Somewhere else
+
+[D6]: What is the highest level of education that you have completed?
+Values: 1-9
+ 1=Postgraduate degree (honours, Masters, PhD)
+ 2=Graduate diploma or graduate certificate
+ 3=Bachelor Degree (undergraduate)
+ 4=Advanced diploma or diploma
+ 5=Certificate (TAFE)
+ 6=Year 12
+ 7=Year 11
+ 8=Year 10 or under
+ 9=I'd prefer not to say
+
+[Q1_statement]: holds which statement will be displayed
+Values: 1-3
+ 1=The health system
+ 2=Inflation
+ 3=Climate change
+
+[Q1a]: You mentioned you think that [pipe: Q1_statement lower] is . Please explain the reasons for your answer, using as much detail as possible...
+Open text response
+
+[ID]: Captured variable
+Open text response
+
